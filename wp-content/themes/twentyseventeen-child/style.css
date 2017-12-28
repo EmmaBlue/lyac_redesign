@@ -1,65 +1,333 @@
 /*
-Error: File to import not found or unreadable: partials/_numbers.
-        on line 10 of style.scss
-
-5: Author: Emma Blue
-6: Version: 0.1.0
-7: *\/
-8: 
-9: @import 'partials/_home';
-10: @import 'partials/_numbers';
-11: 
-12: 
-13: @font-face {
-14:   font-family: 'montserratbold';
-15:   src: url("fonts/montserrat-bold-webfont.woff2") format("woff2"), url("fonts/montserrat-bold-webfont.woff") format("woff");
-
-Backtrace:
-style.scss:10
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/tree/import_node.rb:67:in `rescue in import'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/tree/import_node.rb:45:in `import'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/tree/import_node.rb:28:in `imported_file'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/tree/import_node.rb:37:in `css_import?'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:314:in `visit_import'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/stack.rb:79:in `block in with_base'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/stack.rb:135:in `with_frame'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/stack.rb:79:in `with_base'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:162:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:52:in `map'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:161:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/tree/visitors/perform.rb:10:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/tree/root_node.rb:36:in `css_tree'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/engine.rb:307:in `render_with_sourcemap'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:209:in `each'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:443:in `on_file_changed'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.5.1/lib/sass/plugin/compiler.rb:320:in `block in watch'
-/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
-/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/config.rb:23:in `call'
-/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:115:in `_process_changes'
-/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:19:in `block in loop_for'
-/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop'
-/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/processor.rb:15:in `loop_for'
-/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:84:in `_wait_for_changes'
-/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/event/loop.rb:42:in `block in setup'
-/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `call'
-/Library/Ruby/Gems/2.0.0/gems/sass-listen-4.0.0/lib/sass-listen/internals/thread_pool.rb:6:in `block in add'
+Theme Name: Twenty Seventeen Child theme
+Template: twentyseventeen
+Description: A child theme of Twenty Seventeen.
+Author: Emma Blue
+Version: 0.1.0
 */
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: File to import not found or unreadable: partials/_numbers.\A         on line 10 of style.scss\A \A 5: Author: Emma Blue\A 6: Version: 0.1.0\A 7: */\A 8: \A 9: @import 'partials/_home';\A 10: @import 'partials/_numbers';\A 11: \A 12: \A 13: @font-face {\A 14:   font-family: 'montserratbold';\A 15:   src: url(\"fonts/montserrat-bold-webfont.woff2\") format(\"woff2\"), url(\"fonts/montserrat-bold-webfont.woff\") format(\"woff\");"; }
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+body {
+  line-height: 1.2; }
+
+a {
+  outline: 0; }
+
+#post-7 {
+  background: url("images/ldnont-small.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 440px;
+  text-align: center; }
+  #post-7 .entry-content a img {
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    -ms-box-shadow: none; }
+  #post-7 .entry-title {
+    font-family: "montserratregular", sans-serif;
+    color: #ffffff;
+    font-size: 4.18em;
+    line-height: 1em;
+    text-align: left; }
+    #post-7 .entry-title span {
+      font-family: "montserratextrabold", sans-serif;
+      font-size: 1.08em; }
+  #post-7 p {
+    font-size: 0.8em;
+    color: #ffffff;
+    font-family: "monserratmedium", sans-serif;
+    line-height: 1.4em;
+    text-align: left; }
+  #post-7 p:nth-child(1) {
+    margin-bottom: 1.5em; }
+  #post-7 p:nth-child(2) {
+    display: inline-block;
+    padding: 16px 10px;
+    background-color: #d11263;
+    margin-right: 1.8em;
+    box-shadow: inset 0 0 0 0px #d11263;
+    -ms-box-shadow: inset 0 0 0 0px #d11263;
+    -webkit-box-shadow: inset 0 0 0 0px #d11263;
+    transition: box-shadow 0.2s linear;
+    -ms-transition: box-shadow 0.2s linear;
+    -webkit-transition: box-shadow 0.2s linear;
+    transition: background-color 0.2s linear;
+    -ms-transition: background-color 0.2s linear;
+    -webkit-transition: background-color 0.2s linear;
+    margin-bottom: 0em; }
+  #post-7 p:nth-child(3) {
+    display: inline-block;
+    padding: 12.5px 10px;
+    border: 3px #01c5c4 solid;
+    transition: background-color 0.2s linear;
+    -ms-transition: background-color 0.2s linear;
+    -webkit-transition: background-color 0.2s linear;
+    margin-bottom: 0em; }
+  #post-7 p:nth-child(2):hover, #post-7 p:nth-child(2):active {
+    background-color: transparent;
+    box-shadow: inset 0 0 0 3px #d11263;
+    -ms-box-shadow: inset 0 0 0 3px #d11263;
+    -webkit-shadow: inset 0 0 0 3px #d11263; }
+  #post-7 p:nth-child(3):hover, #post-7 p:nth-child(3):active {
+    background-color: #01c5c4; }
+  #post-7 p:nth-child(4) {
+    margin-top: 16px;
+    text-align: center; }
+    #post-7 p:nth-child(4) img {
+      width: 30px; }
+  #post-7 a {
+    color: #ffffff;
+    font-family: "montserratregular", sans-serif;
+    padding-bottom: 5px;
+    border-color: white;
+    border: 0px;
+    webkit-box-shadow: none;
+    box-shadow: none;
+    webkit-transition: none;
+    transition: none; }
+
+#panel1 {
+  background: url("images/map.png"); }
+  #panel1 .entry-header h2 {
+    display: none; }
+  #panel1 .entry-content div {
+    margin-bottom: .35em; }
+  #panel1 .entry-content div:nth-child(1) {
+    overflow: hidden; }
+    #panel1 .entry-content div:nth-child(1) div:nth-child(1) {
+      max-height: 100%;
+      background: url("images/youths-small.jpg") no-repeat top left;
+      text-align: center;
+      max-width: 60%;
+      font-family: "montserratregular", sans-serif;
+      font-size: 1em;
+      float: left;
+      animation-name: fadeIn;
+      animation-duration: 0.5s; }
+      #panel1 .entry-content div:nth-child(1) div:nth-child(1) p {
+        margin-bottom: 0em;
+        padding: 25% 5% 25% 5%;
+        color: #ffffff; }
+      #panel1 .entry-content div:nth-child(1) div:nth-child(1) span:nth-child(1) {
+        font-family: "montserratextrabold", sans-serif;
+        font-size: 3em;
+        color: #86be40;
+        text-align: center;
+        display: block;
+        margin-bottom: -0.2em; }
+      #panel1 .entry-content div:nth-child(1) div:nth-child(1) span:nth-child(2) {
+        font-family: "montserratbold", sans-serif;
+        font-size: 1.2em;
+        text-align: center;
+        display: block; }
+      #panel1 .entry-content div:nth-child(1) div:nth-child(1) span:nth-child(3) {
+        text-align: center; }
+    #panel1 .entry-content div:nth-child(1) div:nth-child(2) {
+      max-height: 100%;
+      background: url("images/14wards.jpg") no-repeat left center;
+      text-align: center;
+      color: #ffffff;
+      max-width: 60%;
+      float: right;
+      animation-name: fadeIn;
+      animation-duration: 0.75s; }
+      #panel1 .entry-content div:nth-child(1) div:nth-child(2) p {
+        margin-bottom: 0em;
+        padding: 12% 10% 20% 10%;
+        font-family: "montserratregular", sans-serif;
+        font-size: 1em; }
+      #panel1 .entry-content div:nth-child(1) div:nth-child(2) span:nth-child(1) {
+        display: block;
+        padding-right: 30px;
+        margin-bottom: -10px; }
+      #panel1 .entry-content div:nth-child(1) div:nth-child(2) span:nth-child(2) {
+        font-family: "montserratextrabold", sans-serif;
+        font-size: 3em;
+        text-align: center;
+        color: #01c5c4;
+        display: block;
+        margin-bottom: -0.2em; }
+      #panel1 .entry-content div:nth-child(1) div:nth-child(2) span:nth-child(5) {
+        font-family: "montserratbold", sans-serif;
+        font-size: 1.2em;
+        text-align: center;
+        display: block; }
+      #panel1 .entry-content div:nth-child(1) div:nth-child(2) span:nth-child(6) {
+        padding-left: 30px; }
+  #panel1 .entry-content div:nth-child(2) {
+    overflow: hidden; }
+    #panel1 .entry-content div:nth-child(2) div:nth-child(1) {
+      max-height: 100%;
+      background: url("images/ages-15.jpg") no-repeat center;
+      text-align: center;
+      color: #ffffff;
+      max-width: 49.5%;
+      float: left;
+      animation-name: fadeIn;
+      animation-duration: 0.75s; }
+      #panel1 .entry-content div:nth-child(2) div:nth-child(1) p {
+        margin-bottom: 0em;
+        padding: 8.5%;
+        font-family: "montserratregular", sans-serif;
+        font-size: 1em; }
+      #panel1 .entry-content div:nth-child(2) div:nth-child(1) span:nth-child(3) {
+        font-family: "montserratbold", sans-serif;
+        font-size: 1.2em; }
+      #panel1 .entry-content div:nth-child(2) div:nth-child(1) span:nth-child(5) {
+        font-family: "montserratextrabold", sans-serif;
+        font-size: 3em;
+        color: #d11263;
+        margin-right: 6px; }
+      #panel1 .entry-content div:nth-child(2) div:nth-child(1) span:nth-child(7) {
+        font-family: "montserratextrabold", sans-serif;
+        font-size: 3em;
+        color: #d11263;
+        line-height: 0.75;
+        display: block; }
+    #panel1 .entry-content div:nth-child(2) div:nth-child(3) {
+      max-height: 100%;
+      background: url("images/meeting1.jpg") no-repeat center;
+      text-align: center;
+      color: #ffffff;
+      max-width: 46.3%;
+      float: right;
+      margin-top: -10px;
+      animation-name: fadeIn;
+      animation-duration: 0.75s; }
+      #panel1 .entry-content div:nth-child(2) div:nth-child(3) p {
+        margin-bottom: 0em;
+        padding: 10.5%;
+        font-family: "montserratregular", sans-serif;
+        font-size: 1em; }
+      #panel1 .entry-content div:nth-child(2) div:nth-child(3) span:nth-child(2) {
+        font-family: "montserratextrabold", sans-serif;
+        font-size: 3em;
+        color: #86be40; }
+      #panel1 .entry-content div:nth-child(2) div:nth-child(3) span:nth-child(3) {
+        margin-top: -5em; }
+        #panel1 .entry-content div:nth-child(2) div:nth-child(3) span:nth-child(3) span:nth-child(2) {
+          font-family: "montserratregular", sans-serif;
+          font-size: 1em;
+          color: #ffffff; }
+        #panel1 .entry-content div:nth-child(2) div:nth-child(3) span:nth-child(3) span:nth-child(3) {
+          font-family: "montserratbold", sans-serif;
+          font-size: 1.2em;
+          color: #ffffff;
+          line-height: 1.7; }
+  #panel1 .entry-content #voiceBox {
+    background-color: #01c5c4;
+    color: #222045;
+    position: relative;
+    margin-left: -50vw;
+    left: 50%;
+    text-align: center;
+    padding-right: 35%;
+    margin-top: 1em;
+    margin-bottom: -1em; }
+    #panel1 .entry-content #voiceBox span:nth-child(1) {
+      font-family: "montserratbold", sans-serif;
+      font-size: 0.75em; }
+    #panel1 .entry-content #voiceBox span:nth-child(2) {
+      font-family: "montserratregular", sans-serif;
+      font-size: 0.75em; }
+    #panel1 .entry-content #voiceBox span:nth-child(3) {
+      font-family: "montserratextrabold", sans-serif;
+      font-size: 2.5em;
+      color: #d11263; }
+    #panel1 .entry-content #voiceBox span:nth-child(5) {
+      font-family: "montserratbold", sans-serif; }
+
+@font-face {
+  font-family: 'montserratextrabold';
+  src: url("fonts/montserrat-extrabold-webfont.woff2") format("woff2"), url("fonts/montserrat-extrabold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'montserratmedium';
+  src: url("fonts/montserrat-medium-webfont.woff2") format("woff2"), url("fonts/montserrat-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'montserratregular';
+  src: url("fonts/montserrat-regular-webfont.woff2") format("woff2"), url("fonts/montserrat-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'montserratbold';
+  src: url("fonts/montserrat-bold-webfont.woff2") format("woff2"), url("fonts/montserrat-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'montserratlight';
+  src: url("fonts/montserrat-light-webfont.woff2") format("woff2"), url("fonts/montserrat-light-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+a {
+  outline: 0; }
+
+.site-branding {
+  display: none; }
+
+.post-edit-link {
+  display: none; }
+
+.main-navigation {
+  border: 0px;
+  line-height: 2; }
+  .main-navigation div ul {
+    background: #222045;
+    border-top: 0px;
+    text-align: center; }
+  .main-navigation div li {
+    border-bottom: 0px; }
+  .main-navigation a {
+    padding-top: .4em;
+    border: 0px; }
+
+.navigation-top {
+  background-color: #222045;
+  border-bottom: 0px;
+  border-top: 0px; }
+  .navigation-top a {
+    color: white;
+    font-family: "montserratregular", sans-serif;
+    font-size: 0.85em;
+    border: 0; }
+  .navigation-top a:nth-child(1) img {
+    height: 40px;
+    opacity: 1; }
+  .navigation-top a:nth-child(1):hover img, .navigation-top a:nth-child(1):active img {
+    opacity: 0.8; }
+
+.menu-toggle {
+  color: white;
+  margin: 0px auto 0px;
+  line-height: 1; }
+
+.menu-toggle:focus {
+  outline: none; }
+
+.menu-toggle:hover {
+  outline: none; }
+
+/*hides feature images at top
+.home .entry-header {
+	display: none !important;
+}
+
+.home #primary .entry-content,
+.home .panel-content .recent-posts {
+	width: 100% !important;
+	float: none !important;
+}*/
+@media screen and (min-width: 768em) {
+  .navigation-top a:nth-child(1) img {
+    height: 50px;
+    margin-right: 10px;
+    margin-bottom: -6px; } }
+
+/*# sourceMappingURL=style.css.map */

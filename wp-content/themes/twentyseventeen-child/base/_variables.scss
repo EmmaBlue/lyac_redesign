@@ -1,0 +1,24 @@
+$purple: #222045;
+$mobileTextSize: 0.8em;
+$regFont: 'montserratregular', sans-serif;
+$medFont: 'monserratmedium', sans-serif;
+$extraFont:'montserratextrabold', sans-serif;
+$boldFont: 'montserratbold', sans-serif;
+$textColor: #ffffff;
+$headingSize: 4.18em;
+$mobileTextSize: 0.8em;
+$pink: #d11263;
+$blue: #01c5c4;
+$green: #86be40;
+$regNumFont: 1em;
+$subheadingNumFont: 1.2em;
+$headingNumFont: 3em;
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
