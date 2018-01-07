@@ -38,9 +38,6 @@ Version: 0.1.0
 .site-branding {
   display: none; }
 
-@media screen and (max-width: 47.9375em) {
-  .menu-toggle {
-    padding: 2.5% 0 2.5% 0; } }
 .main-navigation {
   border: 0px;
   line-height: 2; }
@@ -51,7 +48,7 @@ Version: 0.1.0
   .main-navigation div li {
     border-bottom: 0px; }
   .main-navigation a {
-    padding-top: .4em;
+    padding-top: .3em;
     border: 0px; }
 
 .navigation-top {
@@ -64,7 +61,7 @@ Version: 0.1.0
     font-size: 0.85em;
     border: 0; }
   .navigation-top a:nth-child(1) img {
-    height: 40px;
+    height: 30px;
     opacity: 1; }
   .navigation-top a:nth-child(1):hover img, .navigation-top a:nth-child(1):active img {
     opacity: 0.8; }
@@ -80,11 +77,29 @@ Version: 0.1.0
 .menu-toggle:hover {
   outline: none; }
 
-@media screen and (min-width: 768em) {
+@media screen and (min-width: 768px) {
+  .navigation-top a {
+    font-size: 0.9em; }
   .navigation-top a:nth-child(1) img {
-    height: 50px;
-    margin-right: 10px;
+    margin-right: 0px;
     margin-bottom: -6px; } }
+@media screen and (min-width: 48em) {
+  .site-navigation-fixed.navigation-top {
+    position: fixed; }
+
+  .main-navigation {
+    line-height: 0.25; } }
+@media screen and (min-width: 1280px) {
+  .navigation-top a {
+    font-size: 1em; } }
+@media screen and (min-width: 375px) and (max-width: 414px) {
+  .menu-toggle {
+    padding: 5% 0 5% 0;
+    font-size: 1em; } }
+@media screen and (min-width: 415px) and (max-width: 767px) {
+  .menu-toggle {
+    padding: 3% 0 3% 0;
+    font-size: 1em; } }
 body {
   line-height: 1.2; }
 
@@ -108,7 +123,7 @@ a {
     font-size: 4.18em;
     line-height: 1em;
     text-align: left; }
-    #post-7 .entry-title span {
+    #post-7 .entry-title span:nth-child(1) {
       font-family: "montserratextrabold", sans-serif;
       font-size: 1.08em; }
   #post-7 p {
@@ -165,156 +180,387 @@ a {
     webkit-transition: none;
     transition: none; }
 
+@media screen and (min-width: 321px) and (max-width: 414px) {
+  #post-7 {
+    background: url("images/ldnont-iphoneplus.jpg") no-repeat;
+    background-position: bottom left;
+    height: 500px; } }
+@media screen and (min-width: 415px) and (max-width: 600px) {
+  #post-7 {
+    background: url("images/ldnont-smalltab.jpg") no-repeat;
+    height: 500px;
+    background-position: center; } }
+@media screen and (min-width: 601px) and (max-width: 768px) {
+  #post-7 {
+    background: url("images/ldnont-tab.jpg") no-repeat;
+    height: 600px;
+    background-position: center; } }
+@media screen and (min-width: 480px) {
+  #post-7 .entry-header {
+    margin-top: 7%; } }
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  #post-7 {
+    background: url("images/ldnont-desktop.jpg") no-repeat;
+    height: 600px; } }
+@media screen and (min-width: 1025px) {
+  #post-7 {
+    background: url("images/ldnont-large.jpg") no-repeat;
+    height: 700px;
+    background-position: top center; } }
+@media screen and (min-width: 1281px) {
+  #post-7 {
+    background: url("images/ldnont-xlarge.jpg") no-repeat;
+    height: 600px;
+    background-position: center center; } }
+@media screen and (min-width: 480px) {
+  #post-7 p:nth-child(2) {
+    padding: 16px 10px; }
+  #post-7 p:nth-child(3) {
+    padding: 12.5px 10px; } }
+@media screen and (min-width: 321px) {
+  #post-7 .entry-title {
+    padding-left: 5%;
+    padding-top: 5%;
+    margin-bottom: 0.3em;
+    font-size: 4.3em; }
+    #post-7 .entry-title span:nth-child(2) {
+      font-size: 1.3em; }
+  #post-7 p {
+    padding-left: 5%;
+    margin-bottom: 0.5em; }
+  #post-7 p:nth-child(1) {
+    margin-bottom: 2em; }
+  #post-7 p:nth-child(4) {
+    margin-top: 10%; } }
+@media screen and (min-width: 415px) {
+  #post-7 .entry-title {
+    padding-right: 20%; }
+  #post-7 .entry-header {
+    margin-bottom: 1.5em; }
+  #post-7 .h2:first-child {
+    margin-top: -0.5em; } }
+@media screen and (min-width: 472px) {
+  #post-7 .entry-title {
+    padding-right: 30%; } }
+@media screen and (min-width: 480px) {
+  #post-7 .entry-header {
+    margin-bottom: 0.5em; }
+  #post-7 .entry-title {
+    padding-right: 0%;
+    margin-top: -0.5em;
+    padding-top: 0%;
+    margin-bottom: 0em; }
+  #post-7 p:nth-child(1) {
+    margin-bottom: 1.25em; }
+  #post-7 p:nth-child(4) {
+    margin-top: 5%; } }
+@media screen and (min-width: 499px) and (max-width: 612px) {
+  #post-7 .entry-title {
+    padding-right: 20%; } }
+@media screen and (min-width: 613px) and (max-width: 710px) {
+  #post-7 .entry-title {
+    padding-right: 30%; } }
+@media screen and (min-width: 711px) {
+  #post-7 .entry-title {
+    padding-right: 40%; } }
+@media screen and (min-width: 768px) {
+  #post-7 .entry-title {
+    padding-right: 25%;
+    padding-left: 10%;
+    margin-bottom: 0.2em;
+    margin-top: 0em;
+    font-size: 5em; }
+  #post-7 p:nth-child(1) {
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-bottom: 1em; } }
+@media screen and (min-width: 812px) {
+  #post-7 .entry-title {
+    padding-right: 25%; }
+  #post-7 p:nth-child(1) {
+    margin-bottom: 1.5em; } }
 #panel1 {
   background: url("images/map.png"); }
   #panel1 .entry-header h2 {
     display: none; }
-  #panel1 .entry-content div {
-    margin-bottom: .35em; }
-  #panel1 .entry-content div:nth-child(1) {
-    max-height: 100%;
-    background: url("images/youths-small.jpg") no-repeat top left;
-    text-align: center;
-    width: 49%;
-    font-family: "montserratregular", sans-serif;
-    font-size: 1em;
-    display: inline-block;
-    vertical-align: top;
-    animation-name: fadeIn;
-    animation-duration: 0.5s; }
-    #panel1 .entry-content div:nth-child(1) p {
-      margin-bottom: 0em;
-      padding: 32% 2.5% 32% 2.5%;
-      color: #ffffff; }
-    #panel1 .entry-content div:nth-child(1) span:nth-child(1) {
-      font-family: "montserratextrabold", sans-serif;
-      font-size: 3em;
-      color: #86be40;
+  #panel1 #row1 {
+    height: 11em; }
+  #panel1 #row2 {
+    height: 10.5em; }
+  #panel1 .entry-content {
+    margin: 0 auto; }
+    #panel1 .entry-content div {
+      margin-bottom: .35em; }
+    #panel1 .entry-content #fifteenBox {
+      max-height: 100%;
+      background: url("images/youths-small.jpg") no-repeat top left;
       text-align: center;
-      display: block;
-      margin-bottom: -0.2em; }
-    #panel1 .entry-content div:nth-child(1) span:nth-child(2) {
-      font-family: "montserratbold", sans-serif;
-      font-size: 1.2em;
-      text-align: center;
-      display: block; }
-    #panel1 .entry-content div:nth-child(1) span:nth-child(3) {
-      text-align: center; }
-  #panel1 .entry-content div:nth-child(2) {
-    max-height: 100%;
-    background: url("images/14wards.jpg") no-repeat left center;
-    text-align: center;
-    color: #ffffff;
-    width: 49%;
-    display: inline-block;
-    vertical-align: top;
-    animation-name: fadeIn;
-    animation-duration: 0.75s; }
-    #panel1 .entry-content div:nth-child(2) p {
-      margin-bottom: 0em;
-      padding: 19% 10% 25% 10%;
+      width: 49%;
       font-family: "montserratregular", sans-serif;
-      font-size: 1em; }
-    #panel1 .entry-content div:nth-child(2) span:nth-child(1) {
-      display: block;
-      padding-right: 30px;
-      margin-bottom: -10px; }
-    #panel1 .entry-content div:nth-child(2) span:nth-child(2) {
-      font-family: "montserratextrabold", sans-serif;
-      font-size: 3em;
-      text-align: center;
-      color: #01c5c4;
-      display: block;
-      margin-bottom: -0.2em; }
-    #panel1 .entry-content div:nth-child(2) span:nth-child(5) {
-      font-family: "montserratbold", sans-serif;
-      font-size: 1.2em;
-      text-align: center;
-      display: block; }
-    #panel1 .entry-content div:nth-child(2) span:nth-child(6) {
-      padding-left: 30px; }
-  #panel1 .entry-content div:nth-child(3) {
-    max-height: 100%;
-    background: url("images/ages-15.jpg") no-repeat center;
-    text-align: center;
-    color: #ffffff;
-    max-width: 49%;
-    display: inline-block;
-    vertical-align: top;
-    animation-name: fadeIn;
-    animation-duration: 0.75s; }
-    #panel1 .entry-content div:nth-child(3) p {
-      margin-bottom: 0.04em;
-      padding: 9.5%;
-      font-family: "montserratregular", sans-serif;
-      font-size: 1em; }
-    #panel1 .entry-content div:nth-child(3) span:nth-child(3) {
-      font-family: "montserratbold", sans-serif;
-      font-size: 1.2em; }
-    #panel1 .entry-content div:nth-child(3) span:nth-child(5) {
-      font-family: "montserratextrabold", sans-serif;
-      font-size: 3em;
-      color: #d11263;
-      margin-right: 6px; }
-    #panel1 .entry-content div:nth-child(3) span:nth-child(7) {
-      font-family: "montserratextrabold", sans-serif;
-      font-size: 3em;
-      color: #d11263;
-      line-height: 0.75;
-      display: block; }
-  #panel1 .entry-content #meetingBox {
-    max-height: 100%;
-    background: url("images/meeting1.jpg") no-repeat center;
-    text-align: center;
-    color: #ffffff;
-    max-width: 49%;
-    display: inline-block;
-    vertical-align: top;
-    animation-name: fadeIn;
-    animation-duration: 0.75s; }
-    #panel1 .entry-content #meetingBox p {
-      margin-bottom: 0em;
-      padding: 9.5%;
-      font-family: "montserratregular", sans-serif;
-      font-size: 1em; }
-    #panel1 .entry-content #meetingBox span:nth-child(2) {
-      font-family: "montserratextrabold", sans-serif;
-      font-size: 3em;
-      color: #86be40; }
-    #panel1 .entry-content #meetingBox span:nth-child(3) {
-      margin-top: -5em; }
-      #panel1 .entry-content #meetingBox span:nth-child(3) span:nth-child(2) {
-        font-family: "montserratregular", sans-serif;
-        font-size: 1em;
+      font-size: 1em;
+      display: inline-block;
+      vertical-align: top;
+      animation-name: fadeIn;
+      animation-duration: 0.5s; }
+      #panel1 .entry-content #fifteenBox p {
+        margin-bottom: 0em;
+        padding: 40px 5px 40px 5px;
         color: #ffffff; }
-      #panel1 .entry-content #meetingBox span:nth-child(3) span:nth-child(3) {
+      #panel1 .entry-content #fifteenBox span:nth-child(1) {
+        font-family: "montserratextrabold", sans-serif;
+        font-size: 3em;
+        color: #86be40;
+        text-align: center;
+        display: block;
+        margin-bottom: -0.2em; }
+      #panel1 .entry-content #fifteenBox span:nth-child(2) {
         font-family: "montserratbold", sans-serif;
         font-size: 1.2em;
-        color: #ffffff;
-        line-height: 1.7; }
-  #panel1 .entry-content #voiceBox {
-    background-color: #01c5c4;
-    color: #222045;
-    position: relative;
-    margin-left: -50vw;
-    left: 50%;
-    text-align: center;
-    padding-right: 35%;
-    margin-top: 1em;
-    margin-bottom: -1em; }
-    #panel1 .entry-content #voiceBox span:nth-child(1) {
-      font-family: "montserratbold", sans-serif;
-      font-size: 0.75em; }
-    #panel1 .entry-content #voiceBox span:nth-child(2) {
-      font-family: "montserratregular", sans-serif;
-      font-size: 0.75em; }
-    #panel1 .entry-content #voiceBox span:nth-child(3) {
-      font-family: "montserratextrabold", sans-serif;
-      font-size: 2.5em;
-      color: #d11263; }
-    #panel1 .entry-content #voiceBox span:nth-child(5) {
-      font-family: "montserratbold", sans-serif; }
+        text-align: center;
+        display: block; }
+      #panel1 .entry-content #fifteenBox span:nth-child(3) {
+        text-align: center; }
+    #panel1 .entry-content #wardBox {
+      max-height: 100%;
+      background: url("images/14wards.jpg") no-repeat left center;
+      text-align: center;
+      color: #ffffff;
+      width: 49%;
+      display: inline-block;
+      vertical-align: top;
+      animation-name: fadeIn;
+      animation-duration: 0.75s; }
+      #panel1 .entry-content #wardBox p {
+        margin-bottom: 0em;
+        padding: 27px 10px 27px 10px;
+        font-family: "montserratregular", sans-serif;
+        font-size: 1em; }
+      #panel1 .entry-content #wardBox span:nth-child(1) {
+        display: block;
+        padding-right: 30px;
+        margin-bottom: -10px; }
+      #panel1 .entry-content #wardBox span:nth-child(2) {
+        font-family: "montserratextrabold", sans-serif;
+        font-size: 3em;
+        text-align: center;
+        color: #01c5c4;
+        display: block;
+        margin-bottom: -0.2em; }
+      #panel1 .entry-content #wardBox span:nth-child(5) {
+        font-family: "montserratbold", sans-serif;
+        font-size: 1.2em;
+        text-align: center;
+        display: block; }
+      #panel1 .entry-content #wardBox span:nth-child(6) {
+        padding-left: 30px; }
+    #panel1 .entry-content #ageBox {
+      max-height: 100%;
+      background: url("images/ages-15.jpg") no-repeat center;
+      text-align: center;
+      color: #ffffff;
+      max-width: 49%;
+      display: inline-block;
+      vertical-align: top;
+      animation-name: fadeIn;
+      animation-duration: 0.75s; }
+      #panel1 .entry-content #ageBox p {
+        margin-bottom: 0.04em;
+        padding: 25px 12px 25px 12px;
+        font-family: "montserratregular", sans-serif;
+        font-size: 1em; }
+      #panel1 .entry-content #ageBox span:nth-child(3) {
+        font-family: "montserratbold", sans-serif;
+        font-size: 1.2em; }
+      #panel1 .entry-content #ageBox span:nth-child(5) {
+        font-family: "montserratextrabold", sans-serif;
+        font-size: 3em;
+        color: #d11263;
+        margin-right: 6px; }
+      #panel1 .entry-content #ageBox span:nth-child(7) {
+        font-family: "montserratextrabold", sans-serif;
+        font-size: 3em;
+        color: #d11263;
+        line-height: 0.75;
+        display: block; }
+    #panel1 .entry-content #meetingBox {
+      max-height: 100%;
+      background: url("images/meeting1.jpg") no-repeat center;
+      text-align: center;
+      color: #ffffff;
+      max-width: 49%;
+      display: inline-block;
+      vertical-align: top;
+      animation-name: fadeIn;
+      animation-duration: 0.75s; }
+      #panel1 .entry-content #meetingBox p {
+        margin-bottom: 0em;
+        padding: 25px 10px;
+        font-family: "montserratregular", sans-serif;
+        font-size: 1em; }
+      #panel1 .entry-content #meetingBox span:nth-child(2) {
+        font-family: "montserratextrabold", sans-serif;
+        font-size: 3em;
+        color: #86be40; }
+      #panel1 .entry-content #meetingBox span:nth-child(3) {
+        margin-top: -5em; }
+        #panel1 .entry-content #meetingBox span:nth-child(3) span:nth-child(2) {
+          font-family: "montserratregular", sans-serif;
+          font-size: 1em;
+          color: #ffffff; }
+        #panel1 .entry-content #meetingBox span:nth-child(3) span:nth-child(3) {
+          font-family: "montserratbold", sans-serif;
+          font-size: 1.2em;
+          color: #ffffff;
+          line-height: 1.7; }
+    #panel1 .entry-content #voiceBox {
+      background-color: #01c5c4;
+      color: #222045;
+      position: relative;
+      margin-left: -50vw;
+      left: 50%;
+      text-align: center;
+      padding-right: 35%;
+      margin-top: 1em;
+      margin-bottom: -1em; }
+      #panel1 .entry-content #voiceBox span:nth-child(1) {
+        font-family: "montserratbold", sans-serif;
+        font-size: 0.75em; }
+      #panel1 .entry-content #voiceBox span:nth-child(2) {
+        font-family: "montserratregular", sans-serif;
+        font-size: 0.75em; }
+      #panel1 .entry-content #voiceBox span:nth-child(3) {
+        font-family: "montserratextrabold", sans-serif;
+        font-size: 2.5em;
+        color: #d11263; }
+      #panel1 .entry-content #voiceBox span:nth-child(5) {
+        font-family: "montserratbold", sans-serif; }
 
+@media screen and (min-width: 867px) {
+  #panel1 .entry-content #ageBox p {
+    padding: 61px 15px; } }
+@media screen and (min-width: 768px) and (max-width: 896px) {
+  #panel1 .entry-content #ageBox p {
+    padding: 51px 15px; } }
+@media screen and (min-width: 768px) {
+  #panel1 {
+    text-align: center; }
+
+  #panel1 .panel-content .entry-header {
+    margin-bottom: -3.5em; }
+
+  #panel1 .entry-content #row1 {
+    max-width: 100%;
+    display: inline;
+    margin-bottom: 0em; }
+  #panel1 .entry-content #row2 {
+    display: inline; }
+  #panel1 .entry-content #picBlock {
+    width: 100%; }
+  #panel1 .entry-content #fifteenBox {
+    width: 23%;
+    margin-right: 10px; }
+    #panel1 .entry-content #fifteenBox p {
+      padding: 74px 5px; }
+  #panel1 .entry-content #wardBox {
+    width: 23%;
+    margin-right: 10px; }
+    #panel1 .entry-content #wardBox p {
+      padding: 60px 10px; }
+  #panel1 .entry-content #ageBox {
+    width: 23%;
+    margin-right: 10px; }
+  #panel1 .entry-content #meetingBox {
+    width: 23%;
+    margin-right: 10px; }
+    #panel1 .entry-content #meetingBox p {
+      padding-top: 48px;
+      padding-bottom: 26px; } }
+@media screen and (min-width: 1171px) and (max-width: 1330) {
+  #panel1 .panel-content .wrap {
+    max-width: 80%; } }
+@media screen and (min-width: 1331px) {
+  #panel1 .panel-content .wrap {
+    max-width: 50%; } }
+@media screen and (min-width: 1171px) and (max-width: 1331px) {
+  #panel1 .panel-content .wrap {
+    max-width: 80%; } }
+@media screen and (min-width: 1071px) and (max-width: 1170px) {
+  #panel1 .panel-content .wrap {
+    max-width: 90%; } }
+@media screen and (min-width: 768px) and (max-width: 1070px) {
+  #panel1 {
+    text-align: center; }
+    #panel1 .panel-content .wrap {
+      max-width: 100%; } }
+@media screen and (min-width: 30em) and (max-width: 767px) {
+  #panel1 .panel-content .wrap {
+    max-width: 740px; } }
+@media screen and (min-width: 604px) and (max-width: 767px) {
+  #picBlock {
+    width: 85%;
+    margin: 0 auto; } }
+@media screen and (min-width: 604px) and (max-width: 767px) {
+  #panel1 .entry-content div {
+    margin-bottom: 0em; }
+  #panel1 .entry-content #fifteenBox p {
+    padding: 80px 5px; }
+  #panel1 .entry-content #wardBox p {
+    padding: 60px 10px; }
+  #panel1 .entry-content #row1 {
+    height: 13em;
+    margin-bottom: 0.3em; }
+  #panel1 .entry-content #row2 {
+    height: 13em; }
+  #panel1 .entry-content #ageBox p {
+    padding: 51px 15px; }
+  #panel1 .entry-content #meetingBox p {
+    padding: 50px 30px; }
+
+  #picBlock {
+    width: 65%;
+    margin: 0 auto; } }
+@media screen and (min-width: 600px) and (max-width: 603px) {
+  #picBlock {
+    width: 80%;
+    margin: 0 auto; } }
+@media screen and (min-width: 524px) and (max-width: 599px) {
+  #picBlock {
+    width: 90%;
+    margin: 0 auto; } }
+@media screen and (min-width: 524px) and (max-width: 767px) {
+  #panel1 .panel-content .entry-header {
+    margin-bottom: -1.5em; } }
+@media screen and (min-width: 524px) and (max-width: 603px) {
+  #panel1 .entry-content #ageBox p {
+    padding: 25px 12px 25px 12px; }
+
+  #panel1 .entry-content #fifteenBox p {
+    padding: 50px 5px; }
+  #panel1 .entry-content #wardBox p {
+    padding: 35px 10px; }
+  #panel1 .entry-content #ageBox p {
+    padding: 28px 15px; }
+  #panel1 .entry-content #meetingBox p {
+    padding: 25px 30px; } }
+@media screen and (min-width: 480px) and (max-width: 523px) {
+  #panel1 .panel-content .entry-header {
+    margin-bottom: -1.5em; }
+
+  #panel1 .entry-content #fifteenBox p {
+    padding: 50px 10px 50px 10px; }
+  #panel1 .entry-content #wardBox p {
+    padding: 30px 15px 35px 15px; }
+  #panel1 .entry-content #ageBox p {
+    padding: 30px 10px 30px 10px; }
+  #panel1 .entry-content #meetingBox p {
+    padding: 25px 10px; } }
+@media screen and (min-width: 768px) {
+  #panel1 .entry-content #voiceBox {
+    font-size: 1.25em; } }
+@media screen and (min-width: 1600px) {
+  #panel1 .entry-content #voiceBox {
+    left: 95%;
+    margin-left: -70vw; } }
 #panel2 {
   background: url("images/bros-small.jpg") no-repeat top center;
   color: #ffffff;
@@ -351,6 +597,55 @@ a {
       -ms-box-shadow: inset 0 0 0 3px #86be40;
       -webkit-shadow: inset 0 0 0 3px #86be40; }
 
+@media screen and (min-width: 376px) and (max-width: 414px) {
+  #panel2 {
+    background: url("images/pullquote-plus.jpg") no-repeat top center;
+    min-height: 100%;
+    background-size: cover; } }
+@media screen and (min-width: 415px) and (max-width: 600px) {
+  #panel2 {
+    background: url("images/bros-smalltab.jpg") no-repeat top center;
+    min-height: 100%;
+    background-size: cover; } }
+@media screen and (min-width: 601px) and (max-width: 768px) {
+  #panel2 {
+    background: url("images/bros-tab.jpg") no-repeat top center;
+    min-height: 400px;
+    background-size: 100%; } }
+@media screen and (min-width: 600px) {
+  #panel2 .panel-content .wrap {
+    padding-bottom: 3em;
+    padding-top: 3em; } }
+@media screen and (min-width: 768px) {
+  #panel2 {
+    font-size: 1.3em; }
+    #panel2 .panel-content .wrap {
+      padding-bottom: 1em;
+      padding-top: 4em; }
+    #panel2 p:nth-child(4) {
+      font-size: 0.7em; } }
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  #panel2 {
+    background: url("images/bros-desktop.jpg") no-repeat top center;
+    min-height: 600px;
+    background-size: cover; } }
+@media screen and (min-width: 1024px) {
+  #panel2 {
+    font-size: 1.3em; }
+    #panel2 .wrap {
+      padding-left: 1em;
+      padding-right: 1em;
+      padding-bottom: 0em; } }
+@media screen and (min-width: 1025px) and (max-width: 1399px) {
+  #panel2 {
+    background: url("images/bros-wide.jpg") no-repeat top center;
+    min-height: 500px;
+    background-size: cover; } }
+@media screen and (min-width: 1400px) {
+  #panel2 {
+    background: url("images/bros-wide.jpg") no-repeat top center;
+    min-height: 700px;
+    background-size: cover; } }
 #panel3 {
   color: #222045; }
   #panel3 .entry-content a {
@@ -364,20 +659,26 @@ a {
     padding-top: 0.5em; }
   #panel3 .entry-title {
     display: none; }
-  #panel3 p:nth-child(1) {
-    font-family: "montserratlight", sans-serif;
-    font-size: 2em;
-    margin: 0;
-    line-height: 0.85;
-    margin-bottom: 0.25em; }
-    #panel3 p:nth-child(1) span:nth-child(1) {
-      display: block; }
-    #panel3 p:nth-child(1) span:nth-child(2) {
-      font-family: "montserratextrabold", sans-serif;
-      font-size: 2.25em; }
-  #panel3 p:nth-child(2) {
-    font-family: "monserratmedium", sans-serif;
-    margin-bottom: 15px; }
+  #panel3 #startContain {
+    overflow: hidden;
+    margin-top: 0.75em;
+    margin-bottom: -1em; }
+    #panel3 #startContain p:nth-child(1) {
+      font-family: "montserratlight", sans-serif;
+      font-size: 2em;
+      margin: 0;
+      line-height: 0.85;
+      margin-bottom: 0.5em; }
+      #panel3 #startContain p:nth-child(1) span:nth-child(1) {
+        display: block; }
+      #panel3 #startContain p:nth-child(1) span:nth-child(2) {
+        font-family: "montserratextrabold", sans-serif;
+        font-size: 2.25em; }
+    #panel3 #startContain p:nth-child(2) {
+      font-family: "monserratmedium", sans-serif;
+      margin-bottom: 15px; }
+  #panel3 img {
+    display: none; }
   #panel3 #learnContain {
     text-align: center; }
     #panel3 #learnContain #learnBut {
@@ -402,6 +703,65 @@ a {
   #panel3 .nivo-controlNav {
     padding: 0 0 15px 0; }
 
+@media screen and (min-width: 920px) {
+  #startContain p:nth-child(2) {
+    margin-bottom: 25px; } }
+@media screen and (min-width: 768px) {
+  #panel3 .panel-content .wrap {
+    max-width: 100%; } }
+@media screen and (min-width: 30em) {
+  #panel3 .panel-content .entry-header {
+    margin-bottom: 0em; } }
+@media screen and (min-width: 900px) {
+  #panel3 #startContain p:nth-child(1) {
+    font-size: 2.1em; }
+  #panel3 #startContain p:nth-child(2) {
+    font-size: 1.15em; } }
+@media screen and (min-width: 768px) {
+  #panel3 #startContain {
+    margin-top: 1.5em;
+    margin-bottom: 0.5em; }
+
+  #panel3 .panel-content, #panel3 .wrap {
+    margin-bottom: -1.5em; } }
+@media screen and (min-width: 768px) {
+  #panel3 #picSet img {
+    display: inline-block;
+    height: 32%;
+    width: 32%;
+    margin-bottom: 20px; }
+  #panel3 #picSet p {
+    display: inline;
+    margin-bottom: 0px; } }
+@media screen and (min-width: 600px) {
+  #panel3 #startContain p:nth-child(1) {
+    float: left;
+    margin-right: 20px; }
+  #panel3 #startContain p:nth-child(2) {
+    margin-top: 10px; } }
+@media screen and (min-width: 30em) and (max-width: 510px) {
+  .page-one-column .panel-content .wrap {
+    max-width: 740px; } }
+@media screen and (min-width: 767px) {
+  div.slider-wrapper.theme-default {
+    display: none !important; }
+
+  #learnContain {
+    margin-top: 0em; } }
+@media screen and (min-width: 415px) and (max-width: 767px) {
+  #panel3 .slider-wrapper .nivoSlider {
+    width: 80%;
+    margin: 0 auto; } }
+@media screen and (min-width: 480px) {
+  #panel3 #startContain {
+    overflow: hidden; }
+  #panel3 #learnContain {
+    margin-top: 1em; }
+    #panel3 #learnContain #learnBut a {
+      padding: 15px 20px; } }
+@media screen and (min-width: 48em) {
+  .panel-content .wrap {
+    padding-bottom: 0em; } }
 .site-footer {
   background-color: #222045;
   text-align: center; }
@@ -415,17 +775,44 @@ a {
   .site-footer .social-navigation a {
     background-color: #ffffff;
     color: #222045; }
+  .site-footer .social-navigation a:hover, .site-footer a:active {
+    color: #999; }
   .site-footer p {
     color: #ffffff;
     font-size: 0.8em; }
   .site-footer p:nth-child(1):hover {
     color: #999; }
 
+@media screen and (min-width: 768px) {
+  .site-footer .widget-column.footer-widget-1 {
+    width: 100%; }
+
+  .site-footer .widget-area {
+    padding-bottom: 1em; }
+
+  .site-footer p {
+    display: inline;
+    margin-left: 20px; }
+
+  .social-navigation {
+    width: 100%; }
+
+  .textwidget p:nth-child(1) {
+    margin: 0; }
+
+  .menu-social-links-menu-container {
+    display: inline-block; } }
+html, body {
+  height: 100%; }
+
 a {
   outline: 0; }
 
 .post-edit-link {
   display: none; }
+
+img {
+  max-width: 100%; }
 
 /*hides feature images at top
 .home .entry-header {

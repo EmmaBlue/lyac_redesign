@@ -23,30 +23,44 @@
     display: none;
   }
 
-  p:nth-child(1) {
+  #startContain {
 
-    font-family: $lightFont;
-    font-size: 2em;
-    margin: 0;
-    line-height: 0.85;
-    margin-bottom: 0.25em;
+    overflow:hidden;
+    margin-top: 0.75em;
+    margin-bottom: -1em;
 
-    span:nth-child(1) {
+    p:nth-child(1) {
 
-        display: block;
+      font-family: $lightFont;
+      font-size: 2em;
+      margin: 0;
+      line-height: 0.85;
+      margin-bottom: 0.5em;
+
+      span:nth-child(1) {
+
+          display: block;
+      }
+
+      span:nth-child(2) {
+
+          font-family: $extraFont;
+          font-size: 2.25em;
+      }
     }
 
-    span:nth-child(2) {
+    p:nth-child(2) {
 
-        font-family: $extraFont;
-        font-size: 2.25em;
+      font-family: $medFont;
+      margin-bottom: 15px;
     }
+
   }
 
-  p:nth-child(2) {
 
-    font-family: $medFont;
-    margin-bottom: 15px;
+  img {
+
+    display: none;
   }
 
   #learnContain {
@@ -95,6 +109,216 @@
   .nivo-controlNav {
 
     padding: 0 0 15px 0;
+  }
+
+}
+
+//Full Width
+
+@media screen and (min-width:920px) {
+
+  #startContain {
+
+      p:nth-child(2) {
+
+          margin-bottom: 25px;
+      }
+
+    }
+}
+
+@media screen and (min-width:768px) {
+
+  #panel3 .panel-content .wrap {
+
+        max-width: 100%;
+
+  }
+}
+
+//Changing So Full Width
+
+@media screen and (min-width: 30em) {
+
+  #panel3 {
+
+    .panel-content .entry-header {
+        margin-bottom: 0em;
+
+      }
+
+
+    }
+
+}
+
+
+@media screen and (min-width:900px) {
+
+  #panel3 {
+
+    #startContain {
+
+      p:nth-child(1) {
+
+        font-size: 2.1em;
+      }
+
+      p:nth-child(2) {
+
+        font-size: 1.15em;
+      }
+    }
+  }
+}
+
+//Creating more space for inline display
+
+@media screen and (min-width:768px) {
+
+  #panel3 #startContain {
+
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+  }
+
+  #panel3 .panel-content, #panel3 .wrap {
+
+    margin-bottom: -1.5em;
+  }
+}
+
+
+// Transition from vertical display to inline
+
+@media screen and (min-width:768px) {
+
+  #panel3 {
+
+    #picSet {
+
+      img {
+
+        display: inline-block;
+        height: 32%;
+        width: 32%;
+        margin-bottom: 20px;
+      }
+
+      p {
+
+        display: inline;
+        margin-bottom: 0px;
+      }
+  }
+}
+}
+
+
+
+@media screen and (min-width: 600px) {
+
+  #panel3 {
+
+    #startContain {
+
+
+      p:nth-child(1) {
+
+          float:left;
+          margin-right: 20px;
+      }
+
+      p:nth-child(2) {
+
+        margin-top: 10px;
+      }
+    }
+
+  }
+}
+
+
+@media screen and (min-width: 30em) and (max-width:510px) {
+
+  .page-one-column .panel-content .wrap {
+
+    max-width: 740px;
+  }
+}
+
+
+
+//Transition from carousel to vertical display
+@media screen and (min-width: 767px) {
+
+  div.slider-wrapper.theme-default {
+
+      display: none !important;
+    }
+
+    #learnContain {
+
+      margin-top: 0em;
+
+  }
+
+}
+
+@media screen and (min-width: 415px) and (max-width: 767px){
+
+  #panel3 {
+
+    .slider-wrapper {
+
+      .nivoSlider {
+
+        width: 80%;
+        margin: 0 auto;
+      }
+
+    }
+
+
+  }
+
+}
+
+
+@media screen and (min-width: 480px) {
+
+  #panel3 {
+
+    #startContain {
+
+      overflow:hidden;
+
+    }
+
+    #learnContain {
+
+      margin-top: 1em;
+
+      #learnBut {
+
+        a {
+
+          padding: 15px 20px;
+        }
+
+      }
+
+  }
+
+ }
+}
+
+@media screen and (min-width: 48em) {
+
+  .panel-content .wrap {
+
+        padding-bottom: 0em;
+
   }
 
 }

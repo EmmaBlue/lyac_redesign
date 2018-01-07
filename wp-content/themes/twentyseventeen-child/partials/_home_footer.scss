@@ -27,6 +27,12 @@
     background-color: $textColor;
     color: $purple;
 
+
+  }
+
+  .social-navigation a:hover, a:active {
+
+      color: $hoverColor;
   }
 
   p {
@@ -39,6 +45,41 @@
       color: $hoverColor;
   }
 
+}
 
+@media screen and (min-width:768px) {
+
+   .site-footer .widget-column.footer-widget-1 {
+
+     width: 100%;
+   }
+
+   .site-footer .widget-area {
+
+     padding-bottom: 1em;
+   }
+
+  .site-footer p {
+
+    display: inline;
+    margin-left: 20px;
+  }
+   .social-navigation {
+
+     width: 100%;
+   }
+
+   .textwidget {
+
+     p:nth-child(1) {
+          margin: 0;
+     }
+
+   }
+
+   .menu-social-links-menu-container {
+
+     display: inline-block;
+   }
 
 }

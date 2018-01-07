@@ -40,7 +40,7 @@ a {
     line-height: 1em;
     text-align: left;
 
-    span {
+    span:nth-child(1) {
 
       font-family: $extraFont;
       font-size: 1.08em;
@@ -127,4 +127,293 @@ a {
     }
 
 
+}
+
+//Image Queries
+
+@media screen and (min-width: 321px) and (max-width:414px ) {
+
+  #post-7 {
+
+    background: url("images/ldnont-iphoneplus.jpg") no-repeat ;
+    background-position: bottom left;
+    height: 500px;
+  }
+}
+
+@media screen and (min-width: 415px) and (max-width:600px ) {
+
+  #post-7 {
+
+    background: url("images/ldnont-smalltab.jpg" ) no-repeat;
+    height: 500px;
+    background-position: center;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width:768px ) {
+
+  #post-7 {
+
+    background: url("images/ldnont-tab.jpg") no-repeat;
+    height: 600px;
+    background-position: center;
+  }
+}
+
+@media screen and (min-width: 480px) {
+
+  #post-7 .entry-header {
+
+        margin-top: 7%;
+
+  }
+
+}
+
+@media screen and (min-width: 769px) and (max-width:1024px) {
+
+  #post-7 {
+
+    background: url("images/ldnont-desktop.jpg") no-repeat;
+    height: 600px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+
+  #post-7 {
+
+    background: url("images/ldnont-large.jpg") no-repeat;
+    height: 700px;
+    background-position: top center;
+  }
+}
+
+@media screen and (min-width: 1281px) {
+
+  #post-7 {
+
+    background: url("images/ldnont-xlarge.jpg") no-repeat;
+    height: 600px;
+    background-position: center center;
+  }
+}
+
+//Text Queries
+
+@media screen and (min-width: 480px){
+
+  #post-7 {
+
+    p:nth-child(2) {
+
+      padding: 16px 10px;
+
+    }
+
+    p:nth-child(3) {
+
+      padding: 12.5px 10px;
+
+    }
+
+  }
+
+
+}
+
+@media screen and (min-width: 321px) {
+
+  #post-7 {
+
+    .entry-title  {
+
+      padding-left: 5%;
+      padding-top: 5%;
+      margin-bottom: 0.3em;
+      font-size: 4.3em;
+
+      span:nth-child(2) {
+
+        font-size: 1.3em;
+      }
+    }
+
+    p  {
+
+      padding-left: 5%;
+      margin-bottom: 0.5em;
+    }
+
+    p:nth-child(1) {
+
+      margin-bottom: 2em;
+
+    }
+
+
+    p:nth-child(4) {
+
+      margin-top: 10%;
+
+
+    }
+  }
+}
+
+@media screen and (min-width: 415px) {
+
+  #post-7 {
+
+    .entry-title  {
+
+      padding-right:20%;
+
+    }
+
+    .entry-header {
+
+      margin-bottom: 1.5em;
+    }
+
+    .h2:first-child {
+
+      margin-top: -0.5em;
+    }
+
+  }
+
+}
+
+@media screen and (min-width: 472px) {
+
+  #post-7 {
+
+    .entry-title  {
+
+      padding-right:30%;
+
+    }
+
+  }
+
+}
+
+@media screen and (min-width: 480px) {
+
+  #post-7 {
+
+    .entry-header {
+
+      margin-bottom: 0.5em;
+    }
+
+    .entry-title  {
+
+      padding-right:0%;
+      margin-top: -0.5em;
+      padding-top: 0%;
+      margin-bottom: 0em;
+
+    }
+
+    p:nth-child(1) {
+      margin-bottom: 1.25em;
+
+    }
+
+    p:nth-child(4) {
+      margin-top: 5%;
+
+    }
+
+  }
+
+}
+
+@media screen and (min-width: 499px) and (max-width: 612px) {
+
+  #post-7 {
+
+    .entry-title  {
+
+      padding-right:20%;
+
+    }
+
+  }
+
+}
+
+@media screen and (min-width: 613px) and (max-width: 710px) {
+
+  #post-7 {
+
+    .entry-title  {
+
+      padding-right:30%;
+
+    }
+
+  }
+
+}
+
+
+@media screen and (min-width: 711px) {
+
+  #post-7 {
+
+    .entry-title  {
+
+      padding-right:40%;
+
+    }
+
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+
+  #post-7 {
+
+    .entry-title  {
+
+      padding-right:25%;
+      padding-left: 10%;
+      margin-bottom: 0.2em;
+      margin-top: 0em;
+      font-size: 5em;
+
+    }
+
+    p:nth-child(1)  {
+
+      padding-right:10%;
+      padding-left: 10%;
+      margin-bottom: 1em;
+
+    }
+
+  }
+
+}
+
+@media screen and (min-width: 812px) {
+
+  #post-7 {
+
+    .entry-title {
+
+      padding-right: 25%;
+    }
+
+    p:nth-child(1)  {
+
+      margin-bottom: 1.5em;
+
+    }
+  }
 }
