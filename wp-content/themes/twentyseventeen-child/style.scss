@@ -6,129 +6,23 @@ Author: Emma Blue
 Version: 0.1.0
 */
 
-@import 'partials/_home';
-@import 'partials/_numbers';
-
-
-@font-face {
-  font-family: 'montserratbold';
-  src: url("fonts/montserrat-bold-webfont.woff2") format("woff2"), url("fonts/montserrat-bold-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
-
-  @font-face {
-      font-family: 'montserratlight';
-      src: url('fonts/montserrat-light-webfont.woff2') format('woff2'),
-           url('fonts/montserrat-light-webfont.woff') format('woff');
-      font-weight: normal;
-      font-style: normal;
-
-  }
-
-  $purple: #222045;
-  $regFont: 'montserratregular', sans-serif;
-  $mobileTextSize: 0.8em;
+@import 'base/_variables';
+@import 'partials/_home_navigation';
+@import 'partials/_home_main';
+@import 'partials/_home_numbers';
+@import 'partials/_home_pullquote';
+@import 'partials/_home_startedHere';
+@import 'partials/_home_footer';
+@import 'partials/_home_responsive';
 
   a {
 
     outline: 0;
   }
 
-  //Main Navigation Styles
+  .post-edit-link {
 
-.site-branding {
-
-  display: none;
-}
-
-.post-edit-link {
-
-  display: none;
-}
-
-.main-navigation {
-
-  border: 0px;
-  line-height: 2;
-  div {
-
-    ul {
-
-      background: $purple;
-      border-top: 0px;
-      text-align: center;
-
-    }
-
-    li {
-
-      border-bottom: 0px;
-    }
-
-  }
-
-  a {
-
-    padding-top: .4em;
-    border: 0px;
-  }
-}
-  .navigation-top {
-
-    background-color: #222045;
-    border-bottom: 0px;
-    border-top: 0px;
-
-    a {
-
-      color: white;
-      font-family: $regFont;
-      font-size: 0.85em;
-      border: 0;
-    }
-
-    a:nth-child(1) {
-
-      img {
-
-          height: 40px;
-          opacity: 1;
-
-        }
-
-  }
-
-    a:nth-child(1):hover, a:nth-child(1):active{
-
-          img {
-
-              opacity: 0.8;
-
-            }
-      }
-
-
-
-  }
-
-
-  .menu-toggle {
-
-    color: white;
-    margin: 0px auto 0px;
-    line-height: 1;
-
-  }
-
-
-  .menu-toggle:focus {
-
-    outline: none;
-  }
-
-  .menu-toggle:hover {
-
-    outline: none;
+    display: none;
   }
 
 /*hides feature images at top
@@ -141,26 +35,3 @@ Version: 0.1.0
 	width: 100% !important;
 	float: none !important;
 }*/
-
-//Media Queries
-
-//Currently not working, but for navigation
-
-@media screen and (min-width: 768em) {
-
-  .navigation-top {
-
-    a:nth-child(1) {
-
-      img {
-
-        height: 50px;
-        margin-right: 10px;
-        margin-bottom: -6px;
-
-      }
-    }
-  }
-
-
-}

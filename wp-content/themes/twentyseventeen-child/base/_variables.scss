@@ -1,0 +1,69 @@
+$purple: #222045;
+$mobileTextSize: 0.8em;
+$regFont: 'montserratregular', sans-serif;
+$medFont: 'monserratmedium', sans-serif;
+$extraFont:'montserratextrabold', sans-serif;
+$boldFont: 'montserratbold', sans-serif;
+$lightFont:'montserratlight', sans-serif;
+$textColor: #ffffff;
+$headingSize: 4.18em;
+$mobileTextSize: 0.8em;
+$pink: #d11263;
+$blue: #01c5c4;
+$green: #86be40;
+$hoverColor: #999;
+$regNumFont: 1em;
+$subheadingNumFont: 1.2em;
+$headingNumFont: 3em;
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@font-face {
+    font-family: 'montserratextrabold';
+    src: url('fonts/montserrat-extrabold-webfont.woff2') format('woff2'),
+         url('fonts/montserrat-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'montserratmedium';
+    src: url('fonts/montserrat-medium-webfont.woff2') format('woff2'),
+         url('fonts/montserrat-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+  }
+
+
+@font-face {
+    font-family: 'montserratregular';
+    src: url('fonts/montserrat-regular-webfont.woff2') format('woff2'),
+         url('fonts/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'montserratbold';
+  src: url("fonts/montserrat-bold-webfont.woff2") format("woff2"), url("fonts/montserrat-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+  @font-face {
+      font-family: 'montserratlight';
+      src: url('fonts/montserrat-light-webfont.woff2') format('woff2'),
+           url('fonts/montserrat-light-webfont.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+
+  }

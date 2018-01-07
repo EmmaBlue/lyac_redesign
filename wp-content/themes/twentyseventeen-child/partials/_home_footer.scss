@@ -1,0 +1,44 @@
+//Footer Styles
+
+.site-footer {
+
+  background-color: $purple;
+  text-align: center;
+
+  .wrap {
+
+    padding-bottom: 0em;
+  }
+
+  .widget-area {
+
+    padding-top: 1em;
+    padding-bottom: 0em;
+  }
+
+
+  .widget {
+
+    padding-bottom: 0em;
+  }
+
+  .social-navigation a {
+
+    background-color: $textColor;
+    color: $purple;
+
+  }
+
+  p {
+    color: $textColor;
+    font-size: $mobileTextSize;
+  }
+
+  p:nth-child(1):hover {
+
+      color: $hoverColor;
+  }
+
+
+
+}

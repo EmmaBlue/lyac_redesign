@@ -1,0 +1,130 @@
+
+body {
+
+  line-height: 1.2;
+}
+
+a {
+
+  outline: 0;
+}
+
+#post-7 {
+
+  background: url("images/ldnont-small.jpg" );
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 440px;
+  text-align:center;
+
+  .entry-content {
+
+    a {
+
+      img {
+
+        box-shadow: none;
+        -webkit-box-shadow:none;
+        -ms-box-shadow:none;
+      }
+    }
+  }
+
+
+  .entry-title {
+
+    font-family: $regFont;
+    color:  $textColor;
+    font-size: $headingSize;
+    line-height: 1em;
+    text-align: left;
+
+    span {
+
+      font-family: $extraFont;
+      font-size: 1.08em;
+    }
+
+  }
+
+  p {
+
+    font-size: $mobileTextSize;
+    color: $textColor;
+    font-family: $medFont;
+    line-height: 1.4em;
+    text-align: left;
+
+  }
+
+  p:nth-child(1) {
+
+    margin-bottom:1.5em;
+  }
+
+  p:nth-child(2) {
+    display: inline-block;
+    padding: 16px 10px;
+    background-color: $pink;
+    margin-right: 1.8em;
+    box-shadow: inset 0 0 0 0px $pink;
+    -ms-box-shadow: inset 0 0 0 0px $pink;
+    -webkit-box-shadow: inset 0 0 0 0px $pink;
+    transition: box-shadow 0.2s linear;
+    -ms-transition: box-shadow 0.2s linear;
+    -webkit-transition: box-shadow 0.2s linear;
+    transition: background-color 0.2s linear;
+    -ms-transition: background-color 0.2s linear;
+    -webkit-transition: background-color 0.2s linear;
+    margin-bottom:0em;
+  }
+
+  p:nth-child(3) {
+    display: inline-block;
+    padding: 12.5px 10px;
+    border: 3px $blue solid;
+    transition: background-color 0.2s linear;
+    -ms-transition: background-color 0.2s linear;
+    -webkit-transition: background-color 0.2s linear;
+      margin-bottom:0em;
+  }
+
+  p:nth-child(2):hover, p:nth-child(2):active {
+    background-color: transparent;
+    box-shadow: inset 0 0 0 3px $pink;
+    -ms-box-shadow: inset 0 0 0 3px $pink;
+    -webkit-shadow: inset 0 0 0 3px $pink;
+  }
+
+  p:nth-child(3):hover, p:nth-child(3):active {
+    background-color: $blue;
+  }
+
+  p:nth-child(4) {
+
+    margin-top: 16px;
+    text-align: center;
+    img {
+
+      width: 30px;
+    }
+
+  }
+
+  a {
+
+    color: $textColor;
+    font-family: $regFont;
+    padding-bottom: 5px;
+    border-color: white;
+    border: 0px;
+    webkit-box-shadow: none;
+    box-shadow: none;
+    webkit-transition: none;
+    transition: none;
+
+    }
+
+
+}
