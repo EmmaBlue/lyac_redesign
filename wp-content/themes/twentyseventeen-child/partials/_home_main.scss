@@ -12,11 +12,13 @@ a {
 #post-7 {
 
   background: url("images/ldnont-small.jpg" );
+  background-color: $purple;
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
   height: 440px;
   text-align:center;
+
 
   .entry-content {
 
@@ -129,6 +131,7 @@ a {
 
 }
 
+
 //Image Queries
 
 @media screen and (min-width: 321px) and (max-width:414px ) {
@@ -137,7 +140,7 @@ a {
 
     background: url("images/ldnont-iphoneplus.jpg") no-repeat ;
     background-position: bottom left;
-    height: 500px;
+    height: 100%;
   }
 }
 
@@ -146,8 +149,8 @@ a {
   #post-7 {
 
     background: url("images/ldnont-smalltab.jpg" ) no-repeat;
-    height: 500px;
     background-position: center;
+    height: 100%;
   }
 }
 
@@ -156,8 +159,8 @@ a {
   #post-7 {
 
     background: url("images/ldnont-tab.jpg") no-repeat;
-    height: 600px;
     background-position: center;
+    height: 100%;
   }
 }
 
@@ -176,7 +179,7 @@ a {
   #post-7 {
 
     background: url("images/ldnont-desktop.jpg") no-repeat;
-    height: 600px;
+    height: 650px;
   }
 }
 
@@ -185,8 +188,8 @@ a {
   #post-7 {
 
     background: url("images/ldnont-large.jpg") no-repeat;
-    height: 700px;
     background-position: top center;
+    height: 650px;
   }
 }
 
@@ -195,8 +198,8 @@ a {
   #post-7 {
 
     background: url("images/ldnont-xlarge.jpg") no-repeat;
-    height: 600px;
     background-position: center center;
+    height: 650px;
   }
 }
 

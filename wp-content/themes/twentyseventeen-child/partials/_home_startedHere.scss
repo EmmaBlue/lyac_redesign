@@ -191,26 +191,32 @@
 
 // Transition from vertical display to inline
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:768px) and (max-width: 1379px) {
 
   #panel3 {
 
     #picSet {
 
-      img {
+      margin: 0 auto;
 
-        display: inline-block;
-        height: 32%;
-        width: 32%;
-        margin-bottom: 20px;
-      }
 
-      p {
 
-        display: inline;
-        margin-bottom: 0px;
-      }
-  }
+        img {
+
+          display: inline-block;
+          height: 32%;
+          width: 32%;
+        }
+
+        p {
+
+          display: inline;
+          margin-bottom: 0px;
+        }
+
+
+
+    }
 }
 }
 
@@ -229,9 +235,38 @@
           margin-right: 20px;
       }
 
+    }
+
+  }
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 767px) {
+
+  #panel3 {
+
+    #startContain {
+
       p:nth-child(2) {
 
-        margin-top: 10px;
+        margin-top: 30px;
+      }
+    }
+
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+
+  #panel3 {
+
+    #startContain {
+
+
+      p:nth-child(2) {
+
+        margin-top: 50px;
       }
     }
 
@@ -321,4 +356,35 @@
 
   }
 
+}
+
+@media screen and (min-width:1380px){
+
+  #panel3 {
+
+    margin-left: 15em;
+
+    #picSet {
+
+      margin: 0 auto;
+
+
+
+        img {
+
+          display: inline-block;
+          height: 25%;
+          width: 25%;
+        }
+
+        p {
+
+          display: inline;
+          margin-bottom: 0px;
+        }
+
+
+
+    }
+}
 }

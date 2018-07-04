@@ -1,8 +1,6 @@
 <?php
 
-if ( ! defined( 'ABSPATH' ) ) {
-    exit; // disable direct access
-}
+if (!defined('ABSPATH')) die('No direct access.');
 
 /**
  * Generic Slider super class. Extended by library specific classes.
@@ -78,56 +76,53 @@ class MetaSlider {
         return 'false';
     }
 
-    /**
-     * Get the slider libary parameters, this lists all possible parameters and their
-     * default values. Slider subclasses override this and disable/rename parameters
-     * appropriately.
-     *
-     * @return string javascript options
-     */
-    public function get_default_parameters() {
-        $params = array(
-            'type' => 'flex',
-            'random' => false,
-            'cssClass' => '',
-            'printCss' => true,
-            'printJs' => true,
-            'width' => 700,
-            'height' => 300,
-            'spw' => 7,
-            'sph' => 5,
-            'delay' => 3000,
-            'sDelay' => 30,
-            'opacity' => 0.7,
-            'titleSpeed' => 500,
-            'effect' => 'random',
-            'navigation' => true,
-            'links' => true,
-            'hoverPause' => true,
-            'theme' => 'default',
-            'direction' => 'horizontal',
-            'reverse' => false,
-            'animationSpeed' => 600,
-            'prevText' => __('Previous', 'ml-slider'),
-            'nextText' => __('Next', 'ml-slider'),
-            'slices' => 15,
-            'center' => false,
-            'smartCrop' => true,
-            'carouselMode' => false,
-            'carouselMargin' => 5,
-            'easing' => 'linear',
-            'autoPlay' => true,
-            'thumb_width' => 150,
-            'thumb_height' => 100,
-            'fullWidth' => false,
-            'noConflict' => true
-        );
-
-        $params = apply_filters( 'metaslider_default_parameters', $params );
-
-        return $params;
-    }
-
+	/**
+	 * Get the slider libary parameters, this lists all possible parameters and their
+	 * default values. Slider subclasses override this and disable/rename parameters
+	 * appropriately.
+	 *
+	 * @return string javascript options
+	 */
+	public function get_default_parameters() {
+		$params = array(
+			'type' => 'flex',
+			'random' => false,
+			'cssClass' => '',
+			'printCss' => true,
+			'printJs' => true,
+			'width' => 700,
+			'height' => 300,
+			'spw' => 7,
+			'sph' => 5,
+			'delay' => 3000,
+			'sDelay' => 30,
+			'opacity' => 0.7,
+			'titleSpeed' => 500,
+			'effect' => 'random',
+			'navigation' => true,
+			'links' => true,
+			'hoverPause' => true,
+			'theme' => 'default',
+			'direction' => 'horizontal',
+			'reverse' => false,
+			'animationSpeed' => 600,
+			'prevText' => __('Previous', 'ml-slider'),
+			'nextText' => __('Next', 'ml-slider'),
+			'slices' => 15,
+			'center' => false,
+			'smartCrop' => true,
+			'carouselMode' => false,
+			'carouselMargin' => 5,
+			'firstSlideFadeIn' => true,
+			'easing' => 'linear',
+			'autoPlay' => true,
+			'thumb_width' => 150,
+			'thumb_height' => 100,
+			'fullWidth' => false,
+			'noConflict' => true
+		);
+		return apply_filters('metaslider_default_parameters', $params);
+	}
 
     /**
      * The main query for extracting the slides for the slideshow
@@ -219,7 +214,6 @@ class MetaSlider {
      * @return string HTML & Javascrpt
      */
     public function render_public_slides() {
-        $html[] = '<!-- MetaSlider -->';
         $html[] = '<div style="' . $this->get_container_style() . '" class="' . esc_attr($this->get_container_class()) .'">';
         $html[] = '    ' . $this->get_inline_css();
         $html[] = '    <div id="' . $this->get_container_id() . '">';
@@ -227,7 +221,6 @@ class MetaSlider {
         $html[] = '        ' . $this->get_html_after();
         $html[] = '    </div>';
         $html[] = '</div>';
-        $html[] = '<!--// MetaSlider-->';
 
         $slideshow = implode( "\n", $html );
 
@@ -354,7 +347,7 @@ class MetaSlider {
         $javascript = "";
 
         if ( $this->get_setting( 'noConflict' ) == 'true' && $type == 'flex' ) {
-            $javascript = "$('#metaslider_{$this->id}').addClass('flexslider'); // theme/plugin conflict avoidance";
+            $javascript = "$('#metaslider_{$this->id}').addClass('flexslider'); /* theme/plugin conflict avoidance */";
         }
 
         $custom_js = apply_filters( "metaslider_{$type}_slider_javascript_before", $javascript, $this->id );

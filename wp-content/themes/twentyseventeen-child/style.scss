@@ -1,7 +1,7 @@
 /*
 Theme Name: Twenty Seventeen Child theme
 Template: twentyseventeen
-Description: A child theme of Twenty Seventeen.
+Description: A child theme of Twenty Seventeen. Testing to see which version.
 Author: Emma Blue
 Version: 0.1.0
 */
@@ -18,6 +18,7 @@ Version: 0.1.0
 html, body {
 
   height: 100%;
+  min-width: 320px;
 }
 
   a {

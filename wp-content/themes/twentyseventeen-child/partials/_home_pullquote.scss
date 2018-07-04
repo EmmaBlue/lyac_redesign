@@ -55,6 +55,25 @@
 
 }
 
+
+.slide-up {
+    opacity: 0;
+  	animation-name: fadeInOpacity;
+  	animation-iteration-count: 1;
+  	animation-timing-function: ease-in;
+  	animation-duration: 5s;
+    -moz-transition: opacity 500ms linear;
+    -webkit-transition: opacity 500ms linear;
+    -o-transition: opacity 500ms linear;
+    transition: opacity 500ms linear;
+}
+
+.slide-up.in-view {
+
+  opacity: 1;
+}
+
+
 @media screen and (min-width:376px) and (max-width:414px) {
 
   #panel2 {

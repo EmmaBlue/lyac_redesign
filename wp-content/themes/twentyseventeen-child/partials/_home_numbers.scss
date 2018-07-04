@@ -15,7 +15,7 @@
 
     #row2 {
 
-      height: 10.5em;
+      height: 11em;
     }
 
 
@@ -26,9 +26,9 @@
 
       div {
 
-        margin-bottom:.35em;
+        margin-bottom:.15em;
 
-        }
+      }
 
         //15 Elected Reps Block
         #fifteenBox {
@@ -41,8 +41,6 @@
           font-size: $regNumFont;
           display: inline-block;
           vertical-align: top;
-          animation-name: fadeIn;
-          animation-duration: 0.5s;
 
           p {
 
@@ -89,8 +87,6 @@
         width: 49%;
         display: inline-block;
         vertical-align: top;
-        animation-name: fadeIn;
-        animation-duration: 0.75s;
 
         p {
 
@@ -149,8 +145,6 @@
         max-width: 49%;
         display: inline-block;
         vertical-align: top;
-        animation-name: fadeIn;
-        animation-duration: 0.75s;
 
 
         p {
@@ -202,8 +196,6 @@
         max-width: 49%;
         display: inline-block;
         vertical-align: top;
-        animation-name: fadeIn;
-        animation-duration: 0.75s;
 
 
         p {
@@ -294,9 +286,83 @@
 
   }
 
+  // Styling for Fade
+
+  /*animation element*/
+
+.animation-element {
+  opacity: 0;
+  position: relative;
+}
+/*animation element sliding left*/
+
+.slide-left {
+  opacity: 0;
+  -moz-transition: all 500ms linear;
+  -webkit-transition: all 500ms linear;
+  -o-transition: all 500ms linear;
+  transition: all 500ms linear;
+  -moz-transform: translate3d(-50px, 0px, 0px);
+  -webkit-transform: translate3d(-50px, 0px, 0px);
+  -o-transform: translate(-50px, 0px);
+  -ms-transform: translate(-50px, 0px);
+  transform: translate3d(-50px, 0px, 0px);
+}
+
+.slide-left.in-view {
+  opacity: 1;
+  -moz-transform: translate3d(0px, 0px, 0px);
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  -o-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate3d(0px, 0px, 0px);
+}
+
+.slide-up {
+  opacity: 0;
+  -moz-transition: all 500ms linear;
+  -webkit-transition: all 500ms linear;
+  -o-transition: all 500ms linear;
+  transition: all 500ms linear;
+  -moz-transform: translate3d(-50px, 0px, 0px);
+  -webkit-transform: translate3d(-50px, 0px, 0px);
+  -o-transform: translate(-50px, 0px);
+  -ms-transform: translate(-50px, 0px);
+  transform: translate3d(-50px, 0px, 0px);
+}
+
+.slide-up.in-view {
+  opacity: 1;
+  -moz-transform: translate3d(0px, 0px, 0px);
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  -o-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate3d(0px, 0px, 0px);
+}
+
+  @media screen and (min-width: 500px) and (max-width: 750px) {
+
+
+        #panel1 .entry-content #voiceBox {
+
+
+          margin-bottom:-2.5em;
+        }
+  }
+
+  @media screen and (min-width: 1171px) {
+
+    #panel1 .entry-content #voiceBox {
+
+
+      padding-right:30%;
+    }
+
+  }
+
 //Transition to inline display
 
-@media screen and (min-width: 867px) {
+@media screen and (min-width: 867px) and (max-width:1599px){
 
     #panel1 .entry-content {
 
@@ -307,6 +373,30 @@
       }
 
     }
+
+    @media screen and (min-width: 1600px) and (max-width: 1799px){
+
+        #panel1 .entry-content {
+
+          #ageBox  p {
+
+              padding: 51px 15px;
+            }
+          }
+
+        }
+
+        @media screen and (min-width: 1800px) {
+
+            #panel1 .entry-content {
+
+              #ageBox  p {
+
+                  padding: 61px 15px;
+                }
+              }
+
+            }
 
 @media screen and (min-width: 768px) and (max-width: 896px){
 
@@ -413,7 +503,33 @@
 
   }
 
-  @media screen and (min-width: 1331px) {
+  @media screen and (min-width: 1331px) and (max-width: 1599px) {
+
+    #panel1 {
+
+      .panel-content .wrap {
+
+        max-width: 70%;
+      }
+
+    }
+
+  }
+
+  @media screen and (min-width: 1600px) and (max-width: 1799px) {
+
+    #panel1 {
+
+      .panel-content .wrap {
+
+        max-width: 50%;
+      }
+
+    }
+
+  }
+
+  @media screen and (min-width: 1800px) {
 
     #panel1 {
 
@@ -540,7 +656,7 @@
     }
   }
 
-  @media screen and (min-width: 600px) and (max-width:603px) {
+  @media screen and (min-width: 570px) and (max-width:603px) {
 
 
     #picBlock {
@@ -550,7 +666,7 @@
     }
   }
 
-  @media screen and (min-width: 524px) and (max-width: 599px){
+  @media screen and (min-width: 524px) and (max-width: 569px){
 
     #picBlock {
 
@@ -568,12 +684,29 @@
 
   }
 
-  @media screen and (min-width: 524px) and (max-width: 603px){
+  @media screen and (min-width: 405px) and (max-width: 479px) {
 
     #panel1 .entry-content #ageBox p {
 
-      padding: 25px 12px 25px 12px;
+      padding: 30px 12px 25px 12px;
     }
+
+
+  }
+
+  @media screen and (min-width: 480px) and (max-width: 603px) {
+
+    #panel1 .entry-content #ageBox p {
+
+      padding: 35px 12px 35px 12px;
+    }
+
+
+  }
+
+  @media screen and (min-width: 524px) and (max-width: 603px){
+
+
 
     #panel1 .entry-content {
 
@@ -587,10 +720,6 @@
         padding: 35px 10px;
       }
 
-      #ageBox p {
-
-        padding: 28px 15px;
-      }
 
       #meetingBox p {
 
@@ -618,10 +747,6 @@
         padding: 30px 15px 35px 15px;
       }
 
-      #ageBox p {
-
-        padding: 30px 10px 30px 10px;
-      }
 
       #meetingBox p {
 

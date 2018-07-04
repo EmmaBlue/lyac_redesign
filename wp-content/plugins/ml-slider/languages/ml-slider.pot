@@ -1,4 +1,4 @@
-# Copyright (C) 2017 ml-slider
+# Copyright (C) 2018 ml-slider
 # This file is distributed under the same license as the ml-slider package.
 msgid ""
 msgstr ""
@@ -7,7 +7,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
 "Last-Translator: John Doe <mail@example.com>\n"
 "Language-Team: Team Updraft <mail@example.com>\n"
 "X-Poedit-Basepath: ..\n"
@@ -97,175 +97,167 @@ msgstr ""
 msgid "If you could spare a minute, we would like to ask you 4 easy questions about how you use MetaSlider. Your voice is important to us!"
 msgstr ""
 
-#: src/admin/Notices.php:189
-msgid "forever"
-msgstr ""
-
-#: src/admin/Notices.php:204
+#: src/admin/Notices.php:205
 msgid "Black Friday - 50% off the MetaSlider Add-on Pack until November 30th"
 msgstr ""
 
-#: src/admin/Notices.php:205, src/admin/Notices.php:218, src/admin/Notices.php:231, src/admin/Notices.php:244, src/admin/Notices.php:257
+#: src/admin/Notices.php:206, src/admin/Notices.php:219, src/admin/Notices.php:232, src/admin/Notices.php:245, src/admin/Notices.php:258
 msgid "To benefit, use this discount code:"
 msgstr ""
 
-#: src/admin/Notices.php:213, src/admin/Notices.php:226, src/admin/Notices.php:239, src/admin/Notices.php:252, src/admin/Notices.php:265
-msgid "until next year"
-msgstr ""
-
-#: src/admin/Notices.php:217
+#: src/admin/Notices.php:218
 msgid "Christmas sale - 50% off the MetaSlider Add-on Pack until December 25th"
 msgstr ""
 
-#: src/admin/Notices.php:230
-msgid "Happy New Year - 50% off the MetaSlider Add-on Pack until January 1st"
+#: src/admin/Notices.php:231
+msgid "Happy New Year - 50% off the MetaSlider Add-on Pack until January 14th"
 msgstr ""
 
-#: src/admin/Notices.php:243
-msgid "Spring sale - 50% off the MetaSlider Add-on Pack until April 31st"
+#: src/admin/Notices.php:244
+msgid "Spring sale - 50% off the MetaSlider Add-on Pack until April 30th"
 msgstr ""
 
-#: src/admin/Notices.php:256
+#: src/admin/Notices.php:257
 msgid "Summer sale - 50% off the MetaSlider Add-on Pack until July 31st"
 msgstr ""
 
-#: src/admin/Notices.php:280
+#: src/admin/Notices.php:281
 msgid "Increase your conversion rate with video slides and many more options."
 msgstr ""
 
-#: src/admin/Notices.php:287
+#: src/admin/Notices.php:288
 msgid "offers unparalleled choice and flexibility, allowing you to select one or a combination of over a dozen optimization options."
 msgstr ""
 
-#: src/admin/Notices.php:294
+#: src/admin/Notices.php:295
 msgid "provides personal support, the ability to copy sites, more storage destinations, encrypted backups for security, multiple backup destinations, better reporting, no adverts and plenty more."
 msgstr ""
 
-#: src/admin/Notices.php:301
+#: src/admin/Notices.php:302
 msgid "simplifies backups and restoration. It is the world's highest ranking and most popular scheduled backup plugin, with over a million currently-active installs."
 msgstr ""
 
-#: src/admin/Notices.php:308
+#: src/admin/Notices.php:309
 msgid "auto-clean your WordPress database so that it runs at maximum efficiency."
 msgstr ""
 
-#: src/admin/Notices.php:315
+#: src/admin/Notices.php:316
 msgid "Simple & secure login with a wave of your phone."
 msgstr ""
 
-#: src/admin/Notices.php:322
+#: src/admin/Notices.php:323
 msgid "is a highly efficient way to manage, update and backup multiple websites from one place."
 msgstr ""
 
-#: src/admin/Notices.php:537
+#: src/admin/Notices.php:527
 msgid "weeks"
 msgstr ""
 
-#: src/admin/Notices.php:553
+#: src/admin/Notices.php:543
 msgid "Get UpdraftPlus"
 msgstr ""
 
-#: src/admin/Notices.php:554
+#: src/admin/Notices.php:544
 msgid "Get Keyy"
 msgstr ""
 
-#: src/admin/Notices.php:555
+#: src/admin/Notices.php:545
 msgid "Optimize today"
 msgstr ""
 
-#: src/admin/Notices.php:556
+#: src/admin/Notices.php:546
 msgid "Get UpdraftCentral"
 msgstr ""
 
-#: src/admin/Notices.php:557
+#: src/admin/Notices.php:547
 msgid "Let's Start"
 msgstr ""
 
-#: src/admin/Notices.php:558
+#: src/admin/Notices.php:548
 msgid "Review MetaSlider"
 msgstr ""
 
-#: src/admin/Notices.php:559
+#: src/admin/Notices.php:549
 msgid "Find out more"
 msgstr ""
 
-#: src/admin/Notices.php:560
+#: src/admin/Notices.php:550
 msgid "Sign up"
 msgstr ""
 
-#: src/admin/Notices.php:561
+#: src/admin/Notices.php:551
 msgid "Go there"
 msgstr ""
 
-#: src/admin/Notices.php:563
+#: src/admin/Notices.php:553
 msgid "Read more"
 msgstr ""
 
-#: src/admin/Notices.php:577, src/admin/Tour.php:123, src/inc/slide/metaslide.class.php:120, src/inc/slide/metaslide.image.class.php:107, src/ml-slider.php:638, src/ml-slider.php:687
+#: src/admin/Notices.php:567, src/admin/Tour.php:123, src/inc/slide/metaslide.class.php:120, src/inc/slide/metaslide.image.class.php:113, src/ml-slider.php:638, src/ml-slider.php:687
 msgid "The security check failed. Please refresh the page and try again."
 msgstr ""
 
-#: src/admin/Notices.php:583
+#: src/admin/Notices.php:573
 msgid "This item does not exist. Please refresh the page and try again."
 msgstr ""
 
-#: src/admin/Notices.php:596
+#: src/admin/Notices.php:586
 msgid "The option was successfully updated"
 msgstr ""
 
-#: src/admin/Notices.php:653
+#: src/admin/Notices.php:643
 msgid "The requested data does not exist."
 msgstr ""
 
-#: src/admin/Notices.php:672
+#: src/admin/Notices.php:667
 msgid "The attempt to update the option failed."
 msgstr ""
 
-#: src/admin/Pages.php:77, src/inc/slide/metaslide.image.class.php:232
+#: src/admin/Pages.php:69, src/admin/views/slides/tabs/general.php:13
 msgid "URL"
 msgstr ""
 
-#: src/admin/Pages.php:78, src/inc/slide/metaslide.image.class.php:231
+#: src/admin/Pages.php:70, src/admin/views/slides/tabs/general.php:3
 msgid "Caption"
 msgstr ""
 
-#: src/admin/Pages.php:79, src/inc/slide/metaslide.image.class.php:234
+#: src/admin/Pages.php:71
 msgid "New Window"
 msgstr ""
 
-#: src/admin/Pages.php:80
+#: src/admin/Pages.php:72
 msgid "Are you sure?"
 msgstr ""
 
-#: src/admin/Pages.php:81
+#: src/admin/Pages.php:73
 msgid "Undo"
 msgstr ""
 
-#: src/admin/Pages.php:82
+#: src/admin/Pages.php:74
 msgid "Slide restored"
 msgstr ""
 
-#: src/admin/Pages.php:83
+#: src/admin/Pages.php:75
 msgid "Slide deleted"
 msgstr ""
 
-#: src/admin/Pages.php:84
+#: src/admin/Pages.php:76
 msgid "Success"
 msgstr ""
 
-#: src/admin/Pages.php:85
+#: src/admin/Pages.php:77
 msgid "Item was copied to your clipboard"
 msgstr ""
 
-#: src/admin/Pages.php:86
+#: src/admin/Pages.php:78
 msgid "Press to undo"
 msgstr ""
 
-#: src/admin/Pages.php:88
+#: src/admin/Pages.php:80
 msgid "Select replacement image"
 msgstr ""
 
-#: src/admin/Pages.php:96
+#: src/admin/Pages.php:88
 msgid "Caution: This setting is for advanced developers only. If you're unsure, leave it checked."
 msgstr ""
 
@@ -350,7 +342,7 @@ msgid "This method does not exist. Please refresh the page and try again."
 msgstr ""
 
 #: src/admin/views/notices/dashboard-notice.php:9, src/admin/views/notices/header-notice.php:11
-msgid "Hide this ad (%s)"
+msgid "Dismiss"
 msgstr ""
 
 #: src/admin/views/notices/header-notice.php:6
@@ -369,7 +361,7 @@ msgstr ""
 msgid "free"
 msgstr ""
 
-#: src/admin/views/pages/upgrade.php:21, src/ml-slider.php:319, src/ml-slider.php:1959
+#: src/admin/views/pages/upgrade.php:21, src/ml-slider.php:319, src/ml-slider.php:1961
 msgid "Add-ons"
 msgstr ""
 
@@ -561,6 +553,86 @@ msgstr ""
 msgid "Logging in with %s is simple. Once users have installed the app onto their smartphone and secured it using a fingerprint or 4-number pin, they just open the app, point it at the moving on-screen barcode and voila!"
 msgstr ""
 
+#: src/admin/views/slides/tabs/crop.php:3
+msgid "Crop Position"
+msgstr ""
+
+#: src/admin/views/slides/tabs/crop.php:7
+msgid "Top Left"
+msgstr ""
+
+#: src/admin/views/slides/tabs/crop.php:8
+msgid "Top Center"
+msgstr ""
+
+#: src/admin/views/slides/tabs/crop.php:9
+msgid "Top Right"
+msgstr ""
+
+#: src/admin/views/slides/tabs/crop.php:10
+msgid "Center Left"
+msgstr ""
+
+#: src/admin/views/slides/tabs/crop.php:11
+msgid "Center Center"
+msgstr ""
+
+#: src/admin/views/slides/tabs/crop.php:12
+msgid "Center Right"
+msgstr ""
+
+#: src/admin/views/slides/tabs/crop.php:13
+msgid "Bottom Left"
+msgstr ""
+
+#: src/admin/views/slides/tabs/crop.php:14
+msgid "Bottom Center"
+msgstr ""
+
+#: src/admin/views/slides/tabs/crop.php:15
+msgid "Bottom Right"
+msgstr ""
+
+#: src/admin/views/slides/tabs/general.php:5
+msgid "Enable this to inherit the caption from the image"
+msgstr ""
+
+#: src/admin/views/slides/tabs/general.php:6
+msgid "Use the image caption"
+msgstr ""
+
+#: src/admin/views/slides/tabs/general.php:9
+msgid "No default caption set"
+msgstr ""
+
+#: src/admin/views/slides/tabs/general.php:15
+msgid "Open in a new window"
+msgstr ""
+
+#: src/admin/views/slides/tabs/seo.php:5
+msgid "Image Title Text"
+msgstr ""
+
+#: src/admin/views/slides/tabs/seo.php:7
+msgid "Enable this to inherit the image title"
+msgstr ""
+
+#: src/admin/views/slides/tabs/seo.php:8
+msgid "Use the image title"
+msgstr ""
+
+#: src/admin/views/slides/tabs/seo.php:15
+msgid "Image Alt Text"
+msgstr ""
+
+#: src/admin/views/slides/tabs/seo.php:17
+msgid "Enable this to inherit the image alt text"
+msgstr ""
+
+#: src/admin/views/slides/tabs/seo.php:18
+msgid "Use the image alt text"
+msgstr ""
+
 #: src/inc/metaslider.widget.class.php:18
 msgid "MetaSlider"
 msgstr ""
@@ -597,11 +669,11 @@ msgstr ""
 msgid "There was an error while updating the database. Please try again."
 msgstr ""
 
-#: src/inc/slide/metaslide.class.php:347
+#: src/inc/slide/metaslide.class.php:335
 msgid "Delete Slide"
 msgstr ""
 
-#: src/inc/slide/metaslide.class.php:377, src/inc/slide/metaslide.class.php:377, src/inc/slide/metaslide.image.class.php:200, src/inc/slide/metaslide.image.class.php:200
+#: src/inc/slide/metaslide.class.php:366, src/inc/slide/metaslide.class.php:366, src/inc/slide/metaslide.image.class.php:207, src/inc/slide/metaslide.image.class.php:207
 msgid "Update slide image"
 msgstr ""
 
@@ -613,71 +685,23 @@ msgstr ""
 msgid "This isn't an accepted image. Please try again."
 msgstr ""
 
-#: src/inc/slide/metaslide.image.class.php:181
+#: src/inc/slide/metaslide.image.class.php:187
 msgid "Image Slide"
 msgstr ""
 
-#: src/inc/slide/metaslide.image.class.php:238
-msgid "Warning: Image data does not exist. Please re-upload the image."
+#: src/inc/slide/metaslide.image.class.php:272
+msgid "Warning: The image data does not exist. Please re-upload the image."
 msgstr ""
 
-#: src/inc/slide/metaslide.image.class.php:243
-msgid "Image Title Text"
-msgstr ""
-
-#: src/inc/slide/metaslide.image.class.php:243
-msgid "Image Alt Text"
-msgstr ""
-
-#: src/inc/slide/metaslide.image.class.php:247
+#: src/inc/slide/metaslide.image.class.php:283
 msgid "General"
 msgstr ""
 
-#: src/inc/slide/metaslide.image.class.php:251
+#: src/inc/slide/metaslide.image.class.php:287
 msgid "SEO"
 msgstr ""
 
-#: src/inc/slide/metaslide.image.class.php:264
-msgid "Crop Position"
-msgstr ""
-
-#: src/inc/slide/metaslide.image.class.php:267
-msgid "Top Left"
-msgstr ""
-
-#: src/inc/slide/metaslide.image.class.php:268
-msgid "Top Center"
-msgstr ""
-
-#: src/inc/slide/metaslide.image.class.php:269
-msgid "Top Right"
-msgstr ""
-
-#: src/inc/slide/metaslide.image.class.php:270
-msgid "Center Left"
-msgstr ""
-
-#: src/inc/slide/metaslide.image.class.php:271
-msgid "Center Center"
-msgstr ""
-
-#: src/inc/slide/metaslide.image.class.php:272
-msgid "Center Right"
-msgstr ""
-
-#: src/inc/slide/metaslide.image.class.php:273
-msgid "Bottom Left"
-msgstr ""
-
-#: src/inc/slide/metaslide.image.class.php:274
-msgid "Bottom Center"
-msgstr ""
-
-#: src/inc/slide/metaslide.image.class.php:275
-msgid "Bottom Right"
-msgstr ""
-
-#: src/inc/slide/metaslide.image.class.php:280
+#: src/inc/slide/metaslide.image.class.php:305
 msgid "Crop"
 msgstr ""
 
@@ -1193,12 +1217,12 @@ msgstr ""
 msgid "Take a tour"
 msgstr ""
 
-#: src/ml-slider.php:1960
-msgid "Support"
+#: src/ml-slider.php:1958
+msgid "Premium Support"
 msgstr ""
 
 #: src/ml-slider.php:1962
-msgid "Premium Support"
+msgid "Support"
 msgstr ""
 
 #: src/ml-slider.php:1964, src/ml-slider.php:2042
