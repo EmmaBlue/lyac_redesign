@@ -1,6 +1,6 @@
-# Pure Volume Website
+# London Youth Advisory Council Website
 
-[https://lyac.ca/](wp-content/themes/twentyseventeen-child/images/lyac-readme)
+![https://lyac.ca/](wp-content/themes/twentyseventeen-child/images/lyac-readme)
 
 Our Wordpress intro page website redesign for the London Youth Advisory Council. 
 
