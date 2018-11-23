@@ -1,6 +1,6 @@
 # London Youth Advisory Council Website
 
-![](/wp-content/themes/twentyseventeen-child/images/lyac-readme)
+![](/wp-content/themes/twentyseventeen-child/images/lyac-readme.png)
 
 Our Wordpress intro page website redesign for the London Youth Advisory Council. 
 
