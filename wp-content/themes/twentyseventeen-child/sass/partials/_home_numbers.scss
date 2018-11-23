@@ -1,0 +1,310 @@
+#panel1 {
+
+  background: url("../images/map.png");
+  .entry-header, .entry-header h2 {
+
+
+      display: none;
+  }
+
+  .entry-content {
+    margin: 0 auto;
+
+     #picBlock {
+
+      display: grid;
+      margin: 0 auto;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 5px;
+      max-width: 900px;
+
+      div {
+
+        min-width: 130px;
+      }
+
+
+      //15 Elected Reps Block
+      #fifteenBox {
+
+        max-height:100%;
+        background: url("../images/youths-small.jpg") no-repeat top left;
+        text-align:center;
+        font-family: $regFont;
+        font-size: $regNumFont;
+
+        p {
+
+          margin-bottom: 0em;
+          padding: 40px 5px 40px 5px;
+          color: $textColor;
+        }
+
+        span:nth-child(1) {
+
+          font-family: $extraFont;
+          font-size: $headingNumFont;
+          color: $green;
+          text-align: center;
+          display: block;
+          margin-bottom: -0.2em;
+
+        }
+
+        span:nth-child(2) {
+
+          font-family: $boldFont;
+          font-size: $subheadingNumFont;
+          text-align: center;
+          display: block;
+
+        }
+
+        span:nth-child(3) {
+
+          text-align: center;
+
+        }
+
+      }
+
+    //14 Wards Block
+    #wardBox {
+
+      max-height:100%;
+      background: url("../images/14wards.jpg") no-repeat left center;
+      text-align: center;
+      color: $textColor;
+
+      p {
+
+        margin-bottom: 0em;
+        padding: 27px 10px 27px 10px;
+        font-family: $regFont;
+        font-size: $regNumFont;
+      }
+
+      span:nth-child(1) {
+
+        display: block;
+        padding-right: 30px;
+        margin-bottom: -10px;
+
+      }
+
+      span:nth-child(2) {
+
+        font-family: $extraFont;
+        font-size: $headingNumFont;
+        text-align: center;
+        color: $blue;
+        display: block;
+        margin-bottom: -0.2em;
+
+      }
+
+      //London Text
+      span:nth-child(5) {
+
+        font-family: $boldFont;
+        font-size: $subheadingNumFont;
+        text-align: center;
+        display: block;
+
+      }
+
+      span:nth-child(6) {
+
+
+        padding-left: 30px;
+
+      }
+
+    }
+
+    //15-25 Block
+
+      #ageBox {
+
+      max-height:100%;
+      background: url("../images/ages-15.jpg") no-repeat center;
+      text-align: center;
+      color: $textColor;
+
+
+      p {
+
+        margin-bottom: 0.04em;
+        padding: 25px 12px 25px 12px;
+        font-family: $regFont;
+        font-size: $regNumFont;
+      }
+
+
+      span:nth-child(3) {
+
+        font-family: $boldFont;
+        font-size: $subheadingNumFont;
+
+      }
+
+      //London Text
+      span:nth-child(5) {
+
+        font-family: $extraFont;
+        font-size: $headingNumFont;
+        color: $pink;
+        margin-right: 6px;
+
+
+      }
+
+      span:nth-child(7) {
+
+        font-family: $extraFont;
+        font-size: $headingNumFont;
+        color: $pink;
+        line-height: 0.75;
+        display: block;
+
+      }
+
+    }
+
+    //Meeting 1 Time Per Week Block
+    #meetingBox {
+
+      max-height:100%;
+      background: url("../images/meeting1.jpg") no-repeat center;
+      text-align: center;
+      color: $textColor;
+      padding-top: 1em;
+      padding-bottom: 2.5em;
+
+
+      p {
+
+        margin-bottom: 0em;
+        padding: 25px 10px;
+        font-family: $regFont;
+        font-size: $regNumFont;
+      }
+
+    //1
+    span:nth-child(2) {
+
+        font-family: $extraFont;
+        font-size: $headingNumFont;
+        color: $green;
+
+      }
+
+      span:nth-child(3) {
+
+        margin-top: -5em;
+
+        span:nth-child(2) {
+
+          font-family: $regFont;
+          font-size: $regNumFont;
+          color: $textColor;
+
+
+        }
+
+        span:nth-child(3) {
+
+          font-family: $boldFont;
+          font-size: $subheadingNumFont;
+          color: $textColor;
+          line-height: 1.7;
+
+
+        }
+
+      }
+
+    }
+
+  }
+
+// 50,000 Voices Box
+
+  #voiceBox {
+
+    background-color: $blue;
+    color: $purple;
+    position: relative;
+    text-align: center;
+    margin-top:1em;
+    margin-bottom: -1em;
+    // fill entire viewport width with ribbon 
+    margin-left: -50vw;
+    left: 30%;
+
+    span:nth-child(1) {
+
+      font-family: $boldFont;
+      font-size: 0.75em;
+    }
+
+    span:nth-child(2) {
+
+      font-family: $regFont;
+      font-size: 0.75em;
+    }
+
+    span:nth-child(3) {
+
+      font-family: $extraFont;
+      font-size: 2.5em;
+      color: $pink;
+    }
+
+    span:nth-child(5) {
+
+      font-family: $boldFont;
+    }
+
+  }
+
+ }
+
+}
+
+// Change Twenty Seventeen style for panel padding
+
+@media screen and (min-width: 600px) {
+
+  #panel1 .panel-content .wrap {
+
+    padding-bottom: 2em;
+    padding-top: 3em;
+  }
+}
+
+// Retain grid gap and width on blocks on small tablet
+
+@media screen and (min-width: 520px) and (max-width: 767px){
+
+  #panel1 .entry-content #picBlock {
+
+    max-width: 400px;
+  }
+
+}
+
+// Display blocks side by side from tablet up
+
+@media screen and (min-width: 768px) {
+
+  #panel1 .entry-content #picBlock {
+
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+  }
+
+  
+}

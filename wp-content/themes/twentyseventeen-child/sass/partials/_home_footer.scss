@@ -1,0 +1,77 @@
+//Footer Styles
+
+.site-footer {
+
+  background-color: $purple;
+  text-align: center;
+  margin: 0 auto;
+
+  .wrap {
+
+    padding-bottom: 0em;
+  }
+
+  .widget-area {
+
+    padding-top: 1em;
+    padding-bottom: 0em;
+  }
+
+  .widget {
+
+    padding-bottom: 0em;
+  }
+
+  .social-navigation a {
+
+    background-color: $textColor;
+    color: $purple;
+
+
+  }
+
+  .social-navigation a:hover, a:active {
+
+      color: $hoverColor;
+  }
+
+  p {
+    color: $textColor;
+    font-size: $mobileTextSize;
+  }
+
+  p:nth-child(1):hover {
+
+      color: $hoverColor;
+  }
+
+}
+
+@media screen and (min-width:768px) {
+
+   .site-footer .widget-column.footer-widget-1 {
+
+     display: block;
+   }
+
+   .site-footer .widget-area {
+
+     display: flex;
+     justify-content: center;
+
+     p {
+
+      display: block;
+     }
+   }
+
+   .social-navigation {
+
+     width: 100%;
+   }
+   .menu-social-links-menu-container {
+
+     display: inline-block;
+   }
+
+}

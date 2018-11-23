@@ -1,0 +1,212 @@
+///Started Here Section Styles
+
+
+#panel3 {
+
+  color: $purple;
+
+  .entry-header, .entry-title {
+
+    display: none;
+  }
+
+
+  .panel-content, .wrap {
+
+      padding-top: 1.5em;
+      padding-bottom: 1.5em;
+  }
+
+//Text Styles
+
+  p:nth-child(1) {
+
+    font-family: $lightFont;
+    font-size: 2em;
+    margin: 0;
+    line-height: 0.85;
+    margin-bottom: 0.5em;
+
+    span:nth-child(1) {
+
+        display: block;
+    }
+
+    span:nth-child(2) {
+
+        font-family: $extraFont;
+        font-size: 2.25em;
+    }
+  }
+
+  p:nth-child(2) {
+
+    font-family: $medFont;
+    margin-bottom: 15px;
+  }
+
+
+  //Button Styles
+
+  #learnContain {
+
+    text-align: center;
+
+
+  #learnBut {
+
+    font-family: $regFont;
+    font-size: $mobileTextSize;
+
+    a {
+      padding: 10px;
+      margin-top: 10px;
+      color: $textColor;
+      display: inline-block;
+      background-color: $pink;
+      transition: background-color 0.2s linear;
+      -ms-transition: background-color 0.2s linear;
+      -webkit-transition: background-color 0.2s linear;
+
+    }
+
+    a:active,a:hover {
+
+      background-color: $green;
+
+    }
+  }
+}
+
+ //Display slideshow plugin rather than coded images on mobile
+
+
+
+#picSet {
+
+    display: none;
+  }
+
+
+
+//startedhere gallery
+  .nivoSlider {
+
+    box-shadow: 0 0 0 0;
+    -webkit-box-shadow: 0 0 0 0;
+  }
+
+
+  .theme-default .nivo-controlNav {
+
+    padding: 0 0 0 0;
+
+  }
+
+  .nivo-controlNav {
+
+    padding: 0 0 15px 0;
+  }
+
+   //Change slideshow plugin button styles
+
+   .entry-content a {
+
+    box-shadow: none;
+
+  }
+
+}
+
+//Transition from carousel to vertical display
+@media screen and (min-width: 768px) {
+
+  div.slider-wrapper.theme-default {
+
+      display: none !important;
+    }
+
+  #panel3 {
+
+    #picSet {
+
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      justify-content: center;
+      grid-gap: 10px;
+
+
+    p {
+
+        img {
+          object-fit: cover;
+          width: 100%;
+          height: 95%;
+
+
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
+// Change parent style that restricts wrapper to 740px, which is preventing the image's flexbox from working
+
+@media screen and (min-width: 30em) {
+
+  .page-one-column .panel-content .wrap {
+    max-width: 100%; 
+}
+
+}
+
+
+
+//Adjust size for tablet
+
+
+@media screen and (min-width: 415px) and (max-width: 767px){
+
+  #panel3 {
+
+    .slider-wrapper {
+
+      .nivoSlider {
+
+        width: 80%;
+        margin: 0 auto;
+      }
+
+    }
+
+
+  }
+
+}
+
+// Paragraph styles on desktop
+
+@media screen and (min-width: 1024px) {
+
+  #startContain {
+
+    p {
+
+      display: inline-block;
+    }
+
+    p:nth-child(2) {
+
+      margin-left: 20px;
+      font-size: 1.15em;
+  
+  
+    }
+
+
+  }
+}
