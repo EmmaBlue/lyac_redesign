@@ -18,7 +18,7 @@ Navigate to wp-content/themes/twentyseventeen-child in the site build to see the
 ## Built With
 
 * [CSS Grid](https://cssreference.io/css-grid/)
-* [JQuery](https://jquery.com/) - Used for animating elements
+* [jQuery](https://jquery.com/) - Used for animating elements
 
 ## To-Do List
 
