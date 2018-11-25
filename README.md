@@ -10,7 +10,10 @@ Live at [lyac.ca](https://lyac.ca/).
 
 ## Getting Started
 
-Navigate to wp-content/themes/twentyseventeen-child in the site build to see the code. 
+To locally host this website, you’ll need Git installed on your computer.
+[See detailed install instructions here.](https://gist.github.com/derhuerst/1b15ff4652a867391f03)
+
+Navigate to wp-content/themes/twentyseventeen-child in the site build to see the code. The wordpress account is private, but how the code works with CMS html elements can be viewed with browser developer tools at [lyac.ca](https://lyac.ca/). 
 
 ## Built With
 
