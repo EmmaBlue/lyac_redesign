@@ -139,7 +139,8 @@ Version: 0.1.0
         padding-bottom: 5px; }
       #post-7 .entry-header .entry-title span:nth-child(3) {
         font-family: "montserratextrabold", sans-serif;
-        font-size: 1.08em; }
+        font-size: 1.08em;
+        width: 120%; }
   #post-7 .entry-content {
     max-width: 500px;
     margin: 0 auto; }
@@ -228,13 +229,16 @@ Version: 0.1.0
       grid-gap: 5px;
       max-width: 900px; }
       #panel1 .entry-content #picBlock div {
-        min-width: 130px; }
+        min-width: 130px;
+        min-height: 200px; }
       #panel1 .entry-content #picBlock #fifteenBox {
         max-height: 100%;
         background: url("../images/youths-small.jpg") no-repeat top left;
         text-align: center;
         font-family: "montserratregular", sans-serif;
-        font-size: 1em; }
+        font-size: 1em;
+        min-height: 200px;
+        min-width: 150px; }
         #panel1 .entry-content #picBlock #fifteenBox p {
           margin-bottom: 0em;
           padding: 40px 5px 40px 5px;
@@ -257,7 +261,9 @@ Version: 0.1.0
         max-height: 100%;
         background: url("../images/14wards.jpg") no-repeat left center;
         text-align: center;
-        color: #ffffff; }
+        color: #ffffff;
+        min-height: 200px;
+        min-width: 150px; }
         #panel1 .entry-content #picBlock #wardBox p {
           margin-bottom: 0em;
           padding: 27px 10px 27px 10px;
@@ -285,7 +291,9 @@ Version: 0.1.0
         max-height: 100%;
         background: url("../images/ages-15.jpg") no-repeat center;
         text-align: center;
-        color: #ffffff; }
+        color: #ffffff;
+        min-height: 200px;
+        min-width: 150px; }
         #panel1 .entry-content #picBlock #ageBox p {
           margin-bottom: 0.04em;
           padding: 25px 12px 25px 12px;
@@ -311,7 +319,9 @@ Version: 0.1.0
         text-align: center;
         color: #ffffff;
         padding-top: 1em;
-        padding-bottom: 2.5em; }
+        padding-bottom: 2.5em;
+        min-height: 200px;
+        min-width: 150px; }
         #panel1 .entry-content #picBlock #meetingBox p {
           margin-bottom: 0em;
           padding: 25px 10px;
