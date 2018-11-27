@@ -227,7 +227,8 @@ Version: 0.1.0
       margin: 0 auto;
       grid-template-columns: repeat(2, 1fr);
       grid-gap: 5px;
-      max-width: 900px; }
+      max-width: 900px;
+      min-height: 450px; }
       #panel1 .entry-content #picBlock div {
         min-width: 130px;
         min-height: 200px; }
@@ -370,13 +371,15 @@ Version: 0.1.0
     padding-top: 3em; } }
 @media screen and (min-width: 520px) and (max-width: 767px) {
   #panel1 .entry-content #picBlock {
-    max-width: 400px; } }
+    max-width: 400px;
+    min-height: 450px; } }
 @media screen and (min-width: 768px) {
   #panel1 .entry-content #picBlock {
     display: grid;
     margin: 0 auto;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 5px; } }
+    grid-gap: 5px;
+    min-height: 200px; } }
 #panel2 {
   background: url("../images/bros-small.jpg") no-repeat top center;
   color: #ffffff;
