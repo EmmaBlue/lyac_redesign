@@ -1,0 +1,286 @@
+#panel1 {
+
+    background: url("images/map.png");
+    .entry-header h2 {
+
+        display: none;
+    }
+
+    .entry-content {
+      div {
+
+        margin-bottom:.35em;
+
+        }
+
+        //15 Elected Reps Block
+        div:nth-child(1) {
+
+          max-height:100%;
+          min-height: 200px;
+          min-width: 150px;
+          background: url("images/youths-small.jpg") no-repeat top left;
+          text-align:center;
+          width: 49%;
+          font-family: $regFont;
+          font-size: $regNumFont;
+          display: inline-block;
+          vertical-align: top;
+          animation-name: fadeIn;
+          animation-duration: 0.5s;
+
+          p {
+
+            margin-bottom: 0em;
+            padding: 32% 2.5% 32% 2.5%;
+            color: $textColor;
+          }
+
+          span:nth-child(1) {
+
+            font-family: $extraFont;
+            font-size: $headingNumFont;
+            color: $green;
+            text-align: center;
+            display: block;
+            margin-bottom: -0.2em;
+
+          }
+
+          span:nth-child(2) {
+
+            font-family: $boldFont;
+            font-size: $subheadingNumFont;
+            text-align: center;
+            display: block;
+
+          }
+
+          span:nth-child(3) {
+
+            text-align: center;
+
+          }
+
+        }
+
+      //14 Wards Block
+      div:nth-child(2) {
+
+        max-height:100%;
+        background: url("images/14wards.jpg") no-repeat left center;
+        text-align: center;
+        color: $textColor;
+        width: 49%;
+        display: inline-block;
+        vertical-align: top;
+        animation-name: fadeIn;
+        animation-duration: 0.75s;
+        min-height: 200px;
+        min-width: 150px;
+
+        p {
+
+          margin-bottom: 0em;
+          padding: 19% 10% 25% 10%;
+          font-family: $regFont;
+          font-size: $regNumFont;
+        }
+
+        span:nth-child(1) {
+
+          display: block;
+          padding-right: 30px;
+          margin-bottom: -10px;
+
+        }
+
+        span:nth-child(2) {
+
+          font-family: $extraFont;
+          font-size: $headingNumFont;
+          text-align: center;
+          color: $blue;
+          display: block;
+          margin-bottom: -0.2em;
+
+        }
+
+        //London
+        span:nth-child(5) {
+
+          font-family: $boldFont;
+          font-size: $subheadingNumFont;
+          text-align: center;
+          display: block;
+
+        }
+
+        span:nth-child(6) {
+
+
+          padding-left: 30px;
+
+        }
+
+      }
+
+      //15-25 Block
+
+        div:nth-child(3) {
+
+        max-height:100%;
+        background: url("images/ages-15.jpg") no-repeat center;
+        text-align: center;
+        color: $textColor;
+        max-width: 49%;
+        display: inline-block;
+        vertical-align: top;
+        animation-name: fadeIn;
+        animation-duration: 0.75s;
+        min-height: 200px;
+        min-width: 150px;
+
+
+        p {
+
+          margin-bottom: 0.04em;
+          padding: 9.5%;
+          font-family: $regFont;
+          font-size: $regNumFont;
+        }
+
+
+        span:nth-child(3) {
+
+          font-family: $boldFont;
+          font-size: $subheadingNumFont;
+
+        }
+
+        //London
+        span:nth-child(5) {
+
+          font-family: $extraFont;
+          font-size: $headingNumFont;
+          color: $pink;
+          margin-right: 6px;
+
+
+        }
+
+        span:nth-child(7) {
+
+          font-family: $extraFont;
+          font-size: $headingNumFont;
+          color: $pink;
+          line-height: 0.75;
+          display: block;
+
+        }
+
+      }
+
+      //Meeting 1 Time Per Week Block
+      #meetingBox {
+
+        max-height:100%;
+        background: url("images/meeting1.jpg") no-repeat center;
+        text-align: center;
+        color: $textColor;
+        max-width: 49%;
+        display: inline-block;
+        vertical-align: top;
+        animation-name: fadeIn;
+        animation-duration: 0.75s;
+        min-height: 200px;
+        min-width: 150px;
+
+
+        p {
+
+          margin-bottom: 0em;
+          padding: 9.5%;
+          font-family: $regFont;
+          font-size: $regNumFont;
+        }
+
+      //1
+      span:nth-child(2) {
+
+          font-family: $extraFont;
+          font-size: $headingNumFont;
+          color: $green;
+
+        }
+
+        span:nth-child(3) {
+
+          margin-top: -5em;
+
+          span:nth-child(2) {
+
+            font-family: $regFont;
+            font-size: $regNumFont;
+            color: $textColor;
+
+
+          }
+
+          span:nth-child(3) {
+
+            font-family: $boldFont;
+            font-size: $subheadingNumFont;
+            color: $textColor;
+            line-height: 1.7;
+
+
+          }
+
+        }
+
+      }
+
+
+
+    #voiceBox {
+
+      background-color: $blue;
+      color: $purple;
+      position: relative;
+      margin-left: -50vw;
+      left: 50%;
+      text-align: center;
+      padding-right: 35%;
+      margin-top:1em;
+      margin-bottom:-1em;
+
+      span:nth-child(1) {
+
+        font-family: $boldFont;
+        font-size: 0.75em;
+      }
+
+      span:nth-child(2) {
+
+        font-family: $regFont;
+        font-size: 0.75em;
+      }
+
+      span:nth-child(3) {
+
+        font-family: $extraFont;
+        font-size: 2.5em;
+        color: $pink;
+      }
+
+      span:nth-child(5) {
+
+        font-family: $boldFont;
+      }
+
+    }
+
+   }
+
+  }
